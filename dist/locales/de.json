@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Änderungen speichern",
-        "description_placeholder": "Eine kurze Beschreibung deiner Beiträge (erforderlich)",
+        "description_placeholder": "Eine kurze Beschreibung deiner Beiträge",
         "message_label": "Änderungssatzkommentar",
         "upload_explanation": "Änderungen, die du hoch lädst, werden auf allen Karten sichtbar, die OpenStreetMap nutzen.",
         "upload_explanation_with_user": "Änderungen, die du als {user} hoch lädst, werden auf allen Karten sichtbar, die OpenStreetMap nutzen.",
@@ -316,7 +316,6 @@
             "yes": "Ja",
             "no": "Nein"
         },
-        "add": "Hinzufügen",
         "none": "Nichts",
         "node": "Punkt",
         "way": "Weg",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% Helligkeit",
         "none": "Kein Hintergrund",
         "best_imagery": "Beste bekannte Bildmaterialquelle für diesen Ort",
-        "switch": "Zu diesem Hintergrund zurück wechseln",
         "custom": "Benutzerdefiniert",
         "custom_button": "Benutzerdefinierten Hintergrund bearbeiten",
         "custom_prompt": "Gib eine Vorlage für eine Kachel-URL ein. Gültige Platzhalter sind {z}, {x}, {y} für das Z/X/Y Schema und {u} für das „quadtile“-Schema.",
@@ -512,7 +510,7 @@
         "title": "Photo-Überlagerung (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Verkehrsschilder von Mapillary (bei aktivierter Fotoebene)",
+        "tooltip": "Verkehrszeichen von Mapillary",
         "title": "Verkehrszeichen-Überlagerung (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Barriere Objekte"
-            },
             "category-building": {
                 "name": "Gebäudefunktionen"
             },
@@ -626,7 +621,7 @@
                 "name": "Flächennutzungen"
             },
             "category-path": {
-                "name": "Wegtypen"
+                "name": "Pfadtypen"
             },
             "category-rail": {
                 "name": "Schienentypen"
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Typ"
             },
-            "bin": {
-                "label": "Abfallbehälter"
-            },
             "boundary": {
                 "label": "Typ"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Küche"
-            },
-            "currency_multi": {
-                "label": "Währungen"
             },
             "cycleway": {
                 "label": "Fahrradstreifen",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Kraftstoff"
             },
-            "fuel_multi": {
-                "label": "Spritsorten"
+            "fuel/biodiesel": {
+                "label": "Verkauft Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Verkauft Diesel"
+            },
+            "fuel/e10": {
+                "label": "Verkauft E10"
+            },
+            "fuel/e85": {
+                "label": "Verkauft E85"
+            },
+            "fuel/lpg": {
+                "label": "Verkauft Propan"
+            },
+            "fuel/octane_100": {
+                "label": "Verkauft Rennkraftstoffe"
+            },
+            "fuel/octane_91": {
+                "label": "Verkauft Kraftstoffe"
+            },
+            "fuel/octane_95": {
+                "label": "Verkauft Mittelklassekraftstoffe"
+            },
+            "fuel/octane_98": {
+                "label": "Verkauft Premiumkraftstoffe"
             },
             "gauge": {
                 "label": "Spurweite – Abstand zwischen den Schienen"
@@ -1210,9 +1223,6 @@
                     "underground": "Tiefgarage"
                 }
             },
-            "payment_multi": {
-                "label": "Zahlungsarten"
-            },
             "phone": {
                 "label": "Telefonnummer",
                 "placeholder": "+31 42 123 4567"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Typ"
             },
-            "recycling_accepts": {
-                "label": "akzeptiert"
+            "recycling/cans": {
+                "label": "Dosen"
+            },
+            "recycling/clothes": {
+                "label": "Kleidung"
+            },
+            "recycling/glass": {
+                "label": "Glas"
+            },
+            "recycling/glass_bottles": {
+                "label": "Glasflaschen"
+            },
+            "recycling/paper": {
+                "label": "Papier"
+            },
+            "recycling/plastic": {
+                "label": "Plastik"
+            },
+            "recycling/type": {
+                "label": "Recycling-Typ",
+                "options": {
+                    "centre": "Recyclingcenter",
+                    "container": "Container"
+                }
             },
             "ref": {
                 "label": "Referenz"
@@ -1742,8 +1774,8 @@
                 "terms": "Tankstelle, Tanke"
             },
             "amenity/grave_yard": {
-                "name": "Gräberfeld",
-                "terms": "Gräberfeld, kleiner Friedhof"
+                "name": "Friedhof",
+                "terms": "Friedhof"
             },
             "amenity/grit_bin": {
                 "name": "Streugutkiste",
@@ -1824,10 +1856,6 @@
             "amenity/post_office": {
                 "name": "Postfiliale",
                 "terms": "Post, Postamt"
-            },
-            "amenity/prison": {
-                "name": "Gefängnisanlage",
-                "terms": "Gefängnisanlage, Gefängnis"
             },
             "amenity/pub": {
                 "name": "Kneipe",
@@ -2003,7 +2031,7 @@
             },
             "barrier/ditch": {
                 "name": "Graben",
-                "terms": "Graben, Straßengraben, Rinne"
+                "terms": "Graben, Straßengraben"
             },
             "barrier/entrance": {
                 "name": "Eingang",
@@ -2590,7 +2618,7 @@
                 "terms": "Kreisstraßenanschluss, Kreisstraßenauffahrt, Kreisstraßenabfahrt, Auffahrt, Abfahrt"
             },
             "highway/track": {
-                "name": "Feld-/Waldweg",
+                "name": "Unbesiedelter, oft unbefestigter Weg; oft Feld-/Waldweg",
                 "terms": "Wirtschaftsweg, Feldweg, Waldweg, Forststraße, primitive Straße, nicht ausgebaute Straße, verfallene Straße"
             },
             "highway/traffic_signals": {
@@ -3258,15 +3286,15 @@
                 "terms": "Stromgenerator"
             },
             "power/line": {
-                "name": "Hochspannungsleitung",
+                "name": "Hauptstromleitung",
                 "terms": "Stromleitung"
             },
             "power/minor_line": {
-                "name": "Mittel-/Niederspannungsleitung",
+                "name": "Nebenstromleitung",
                 "terms": "Niederspannungsleitung, Mittelspannungsleitung, Freileitung, Niederspannungsfreileitung, Mittelspannungsfreileitung"
             },
             "power/pole": {
-                "name": "Strommast",
+                "name": "Nebenstrommast",
                 "terms": "Strommast, Stromleitungsmast"
             },
             "power/sub_station": {
@@ -3278,12 +3306,12 @@
                 "terms": "Umspannwerk, Transformatorenstation, Schaltanlage"
             },
             "power/tower": {
-                "name": "Hochspannungsmast",
-                "terms": "Hauptstrommast"
+                "name": "Hauptstrommast",
+                "terms": "Hochspannungsmast"
             },
             "power/transformer": {
                 "name": "Transformator",
-                "terms": "Transformator, Umspannwerk"
+                "terms": "Transformator"
             },
             "public_transport/platform": {
                 "name": "Bahn-/Bussteig ",
@@ -3671,7 +3699,7 @@
             },
             "shop/optician": {
                 "name": "Optiker",
-                "terms": "Brillengeschäft"
+                "terms": "Optiker"
             },
             "shop/organic": {
                 "name": "Bioladen",
@@ -3968,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Wanderroute",
                 "terms": "Wanderweg, Fernwanderweg, Pilgerweg, Trekking"
-            },
-            "type/route/horse": {
-                "name": "Reitroute",
-                "terms": "Reitwanderroute, Reitroute, Wanderreitroute"
             },
             "type/route/pipeline": {
                 "name": "Pipelinenetz",

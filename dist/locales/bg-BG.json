@@ -241,6 +241,7 @@
     },
     "commit": {
         "title": "Запис на промените",
+        "description_placeholder": "Кратко описание на вашия принос",
         "message_label": "Changeset коментари",
         "upload_explanation": "Промените, които качвате ще са видими на всички карти използващи данни от OpenStreetMap.",
         "upload_explanation_with_user": "Промените, които качвате като {user} ще са видими на всички карти използващи данни от OpenStreetMap.",
@@ -474,6 +475,9 @@
     },
     "mapillary_images": {
         "tooltip": "Снимки за ниво на улицата от Mapillary"
+    },
+    "mapillary_signs": {
+        "tooltip": "Пътни знаци от Mapillary"
     },
     "mapillary": {
         "view_on_mapillary": "Вижте тази снимка на Mapillary"
@@ -1059,6 +1063,9 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Велосипедна преграда"
+            },
+            "barrier/ditch": {
+                "name": "Канавка"
             },
             "barrier/entrance": {
                 "name": "Вход"

@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "編集結果を保存",
-        "description_placeholder": "投稿内容についての短い説明（必須）",
+        "description_placeholder": "貢献のための簡単な解説",
         "message_label": "変更セットコメント",
         "upload_explanation": "あなたがアップロードした編集内容は、OpenStreetMapを利用しているすべてのユーザが閲覧できるようになります。",
         "upload_explanation_with_user": "編集した内容を {user} アカウントでアップロードし、OpenStreetMapを利用しているすべてのユーザが閲覧できるようにします。",
@@ -253,9 +253,7 @@
         "deleted": "削除した地物",
         "created": "作成した地物",
         "about_changeset_comments": "変更セットのコメントについて",
-        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments",
-        "google_warning": "コメントの中で Google に触れていますが、 Google マップからのコピーは絶対に禁止です。",
-        "google_warning_link": "http://www.openstreetmap.org/copyright"
+        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments"
     },
     "contributors": {
         "list": "{users} による編集",
@@ -287,8 +285,7 @@
         "no_results_worldwide": "検索結果がありません"
     },
     "geolocate": {
-        "title": "編集画面を現在地へ移動",
-        "locating": "位置情報を取得中です。しばらくお待ちください。"
+        "title": "編集画面を現在地へ移動"
     },
     "inspector": {
         "no_documentation_combination": "このタグの組み合わせに関する解説はありません",
@@ -316,7 +313,6 @@
             "yes": "はい",
             "no": "いいえ"
         },
-        "add": "追加",
         "none": "なし",
         "node": "ノード",
         "way": "ウェイ",
@@ -330,14 +326,11 @@
         "percent_brightness": "明度 {opacity}%",
         "none": "なし",
         "best_imagery": "表示中の場所に最適な航空写真",
-        "switch": "背景に切り替え",
         "custom": "カスタム",
         "custom_button": "カスタム背景の編集",
         "custom_prompt": "タイルURLのテンプレートを入力してください。有効なトークンは、Z/X/Y方式ならば{z}, {x} , {y}、quadtile方式ならば{u}です。",
-        "fix_misalignment": "画像の位置を調整",
         "imagery_source_faq": "この写真の出典元",
         "reset": "設定リセット",
-        "offset": "画像の位置を調整するには、灰色のエリアのどこかをドラッグするか、ずれ幅をメートル単位で入力するかしてください。",
         "minimap": {
             "description": "ミニマップ",
             "tooltip": "現在表示中の周辺をズームアウトして表示"
@@ -357,7 +350,6 @@
             "tooltip": "地点情報"
         },
         "traffic_roads": {
-            "description": "公道",
             "tooltip": "道路、街路など"
         },
         "service_roads": {
@@ -365,7 +357,7 @@
             "tooltip": "私道、駐車場内経路、農道など"
         },
         "paths": {
-            "description": "歩道・小道",
+            "description": "山道",
             "tooltip": "歩道、自転車道など"
         },
         "buildings": {
@@ -512,6 +504,7 @@
         "title": "写真の重ね合わせ (Mapillary)"
     },
     "mapillary_signs": {
+        "tooltip": "Mapillary から交通標識を取得します",
         "title": "交通標識の重ね合わせ (Mapillary)"
     },
     "mapillary": {
@@ -612,9 +605,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "障害物"
-            },
             "category-building": {
                 "name": "建物"
             },
@@ -784,9 +774,6 @@
             "bicycle_parking": {
                 "label": "種類"
             },
-            "bin": {
-                "label": "ゴミ箱"
-            },
             "boundary": {
                 "label": "タイプ"
             },
@@ -857,9 +844,6 @@
             },
             "cuisine": {
                 "label": "料理の種類"
-            },
-            "currency_multi": {
-                "label": "通貨の種類"
             },
             "cycleway": {
                 "label": "自転車通行帯",
@@ -939,6 +923,9 @@
             "entrance": {
                 "label": "タイプ"
             },
+            "except": {
+                "label": "例外"
+            },
             "fax": {
                 "label": "FAX",
                 "placeholder": "+31 42 123 4567"
@@ -961,8 +948,32 @@
             "fuel": {
                 "label": "ガソリンスタンド"
             },
-            "fuel_multi": {
-                "label": "燃料の種類"
+            "fuel/biodiesel": {
+                "label": "バイオディーゼルの販売"
+            },
+            "fuel/diesel": {
+                "label": "軽油の販売"
+            },
+            "fuel/e10": {
+                "label": "E10の販売"
+            },
+            "fuel/e85": {
+                "label": "E85の販売"
+            },
+            "fuel/lpg": {
+                "label": "プロパンの販売"
+            },
+            "fuel/octane_100": {
+                "label": "レース用ガソリンの販売"
+            },
+            "fuel/octane_91": {
+                "label": "レギュラーガソリンの販売"
+            },
+            "fuel/octane_95": {
+                "label": "中品質ガソリンの販売"
+            },
+            "fuel/octane_98": {
+                "label": "ハイオクガソリンの販売"
             },
             "gauge": {
                 "label": "軌間"
@@ -1206,9 +1217,6 @@
                     "underground": "地下"
                 }
             },
-            "payment_multi": {
-                "label": "支払い方法"
-            },
             "phone": {
                 "label": "電話番号",
                 "placeholder": "+31 42 123 4567"
@@ -1266,8 +1274,30 @@
             "railway": {
                 "label": "路線種別"
             },
-            "recycling_accepts": {
-                "label": "リサイクル可能な素材"
+            "recycling/cans": {
+                "label": "空き缶回収"
+            },
+            "recycling/clothes": {
+                "label": "古布回収"
+            },
+            "recycling/glass": {
+                "label": "ガラス回収"
+            },
+            "recycling/glass_bottles": {
+                "label": "空きガラス瓶回収"
+            },
+            "recycling/paper": {
+                "label": "古紙回収"
+            },
+            "recycling/plastic": {
+                "label": "プラスチック回収"
+            },
+            "recycling/type": {
+                "label": "回収設備の種類",
+                "options": {
+                    "centre": "リサイクルセンター",
+                    "container": "リサイクルボックス"
+                }
             },
             "ref": {
                 "label": "管理番号"
@@ -1280,6 +1310,9 @@
             },
             "restriction": {
                 "label": "タイプ"
+            },
+            "restrictions": {
+                "label": "進行方向制限"
             },
             "route": {
                 "label": "タイプ"
@@ -1400,9 +1433,6 @@
                     "tunnel": "トンネル"
                 },
                 "placeholder": "不明"
-            },
-            "studio": {
-                "label": "スタジオの種類"
             },
             "substation": {
                 "label": "タイプ"
@@ -1675,7 +1705,7 @@
                 "terms": "時計"
             },
             "amenity/college": {
-                "name": "短大・高専・専門学校の敷地",
+                "name": "大学の敷地",
                 "terms": "キャンパス"
             },
             "amenity/community_centre": {
@@ -1810,10 +1840,6 @@
                 "name": "郵便局",
                 "terms": "郵便局"
             },
-            "amenity/prison": {
-                "name": "刑務所の敷地",
-                "terms": "刑務所, 刑務所の敷地, 監獄, 拘置所, 少年院"
-            },
             "amenity/pub": {
                 "name": "居酒屋",
                 "terms": "パブ, 居酒屋, 焼き鳥屋"
@@ -1918,9 +1944,6 @@
                 "name": "新聞自動販売機",
                 "terms": "新聞, 自動販売機, 自販機"
             },
-            "amenity/vending_machine/parcel_pickup_dropoff": {
-                "terms": "自動販売機, 自販機"
-            },
             "amenity/vending_machine/parking_tickets": {
                 "name": "パーキングチケット発給機",
                 "terms": "パーキングチケット, パーキングメーター, 駐車券, 券売機, 自動券売機, 自動販売機, 自販機, 自動発券機, 発券機"
@@ -1944,14 +1967,6 @@
             "amenity/waste_basket": {
                 "name": "ゴミ箱",
                 "terms": "ゴミ箱, ごみ箱"
-            },
-            "amenity/waste_disposal": {
-                "name": "ゴミ収集ボックス",
-                "terms": "ゴミステーション, ゴミ集積所, ゴミ捨て場, ゴミ置き場, ゴミ, ゴミ箱, ゴミコンテナ, ゴミ回収, ダストボックス"
-            },
-            "amenity/water_point": {
-                "name": "キャンピングカー用の給水施設",
-                "terms": "給水, 補給, 給水所, キャンピングカー, 給水塔, 飲料水, 飲水, 飲み水, キャンプ場, オートキャンプ場"
             },
             "area": {
                 "name": "エリア",
@@ -1986,8 +2001,8 @@
                 "terms": "自転車止め"
             },
             "barrier/ditch": {
-                "name": "塹壕・空堀",
-                "terms": "塹壕, 空堀, 堀, 溝, 谷"
+                "name": "堀",
+                "terms": "堀"
             },
             "barrier/entrance": {
                 "name": "出入口",
@@ -2066,8 +2081,8 @@
                 "terms": "教会"
             },
             "building/college": {
-                "name": "短大・高専・専門学校の建物",
-                "terms": "短大, 高専, 高等専門学校, 短期大学, 専門, 専門学校"
+                "name": "大学の建物",
+                "terms": "大学の建物"
             },
             "building/commercial": {
                 "name": "オフィスビル",
@@ -3354,8 +3369,7 @@
                 "terms": "古美術品店, アンティークショップ"
             },
             "shop/art": {
-                "name": "美術品販売店",
-                "terms": "現代美術の商店"
+                "name": "美術品販売店"
             },
             "shop/baby_goods": {
                 "name": "赤ちゃん用品店",
@@ -3440,10 +3454,6 @@
             "shop/clothes": {
                 "name": "衣料品店",
                 "terms": "衣料品店, 洋服店, 呉服店"
-            },
-            "shop/coffee": {
-                "name": "コーヒー豆販売店",
-                "terms": "コーヒー豆専門店"
             },
             "shop/computer": {
                 "name": "コンピューター店",
@@ -3641,10 +3651,6 @@
                 "name": "新聞・雑誌店",
                 "terms": "新聞, 雑誌, マガジン, ニュース, スタンド"
             },
-            "shop/nutrition_supplements": {
-                "name": "栄養サプリ販売店",
-                "terms": "栄養サプリメント販売店, サプリ専門店, サプリメント専門店"
-            },
             "shop/optician": {
                 "name": "メガネ",
                 "terms": "メガネ, 眼鏡, メガネ屋, 眼鏡屋"
@@ -3778,8 +3784,7 @@
                 "terms": "銃砲店"
             },
             "shop/window_blind": {
-                "name": "ブラインドカーテン専門店",
-                "terms": "ブラインド販売店"
+                "name": "ブラインドカーテン専門店"
             },
             "shop/wine": {
                 "name": "ワイン店",
@@ -3888,6 +3893,30 @@
             "type/restriction": {
                 "name": "進行方向制限",
                 "terms": "進行方向制限"
+            },
+            "type/restriction/no_left_turn": {
+                "name": "左折禁止",
+                "terms": "左折禁止"
+            },
+            "type/restriction/no_right_turn": {
+                "name": "右折禁止",
+                "terms": "右折禁止"
+            },
+            "type/restriction/no_straight_on": {
+                "name": "直進禁止",
+                "terms": "直進禁止"
+            },
+            "type/restriction/no_u_turn": {
+                "name": "転回禁止",
+                "terms": "転回禁止, Uターン禁止"
+            },
+            "type/restriction/only_left_turn": {
+                "name": "左折のみ可",
+                "terms": "左折のみ可"
+            },
+            "type/restriction/only_right_turn": {
+                "name": "右折のみ可",
+                "terms": "右折のみ可"
             },
             "type/restriction/only_straight_on": {
                 "name": "直進のみ可",

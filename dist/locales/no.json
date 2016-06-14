@@ -178,6 +178,7 @@
     "help_translate": "Hjelp til med oversettelse",
     "commit": {
         "title": "Lagre endringer",
+        "description_placeholder": "Kort beskrivelse av dine bidrag",
         "message_label": "Kommentar til endringssettet",
         "save": "Lagre",
         "cancel": "Avbryt",
@@ -672,6 +673,21 @@
             },
             "fuel": {
                 "label": "Drivstoff"
+            },
+            "fuel/biodiesel": {
+                "label": "Selger biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Selger diesel"
+            },
+            "fuel/e10": {
+                "label": "Selger E10"
+            },
+            "fuel/e85": {
+                "label": "Selger E85"
+            },
+            "fuel/lpg": {
+                "label": "Selger propangass"
             },
             "gauge": {
                 "label": "Måler"
@@ -1184,6 +1200,9 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Sykkelhinder"
+            },
+            "barrier/ditch": {
+                "name": "Grøft"
             },
             "barrier/entrance": {
                 "name": "Inngang"

@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Зберегти зміни",
-        "description_placeholder": "Стислий опис ваших дій (обовʼязково)",
+        "description_placeholder": "Короткий опис ваших правок",
         "message_label": "Пояснення до набору змін",
         "upload_explanation": "Зміни, зроблені вами, з’являться на всіх мапах, що використовують дані OpenStreetMap.",
         "upload_explanation_with_user": "Зміни, зроблені вами під іменем {user}, з’являться на всіх мапах, що використовують дані OpenStreetMap.",
@@ -316,7 +316,6 @@
             "yes": "Так",
             "no": "Ні"
         },
-        "add": "Додати",
         "none": "Нічого",
         "node": "Точка",
         "way": "Лінія",
@@ -330,7 +329,6 @@
         "percent_brightness": "прозорість {opacity}%",
         "none": "Пусте",
         "best_imagery": "Найкраші супутникові знімки для цього місця",
-        "switch": "Ввімкнути цей шар",
         "custom": "Власний фон",
         "custom_button": "Параметри власного фону",
         "custom_prompt": "Введіть шаблон URL для квадратів мапи. Використовуйте  {z}, {x}, {y} для схеми Z/X/Y та {u} для схеми QuadTiles.",
@@ -512,6 +510,7 @@
         "title": "Фото-шар (Mapillary)"
     },
     "mapillary_signs": {
+        "tooltip": "Дорожні знаки від Mapillary",
         "title": "Шар дорожніх знаків (Mapillary)"
     },
     "mapillary": {
@@ -612,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Види перепон"
-            },
             "category-building": {
                 "name": "Будівлі"
             },
@@ -784,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Тип"
             },
-            "bin": {
-                "label": "Урна для сміття"
-            },
             "boundary": {
                 "label": "Тип"
             },
@@ -857,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Кухня"
-            },
-            "currency_multi": {
-                "label": "Валюта"
             },
             "cycleway": {
                 "label": "Велодоріжка",
@@ -964,8 +954,32 @@
             "fuel": {
                 "label": "АЗС"
             },
-            "fuel_multi": {
-                "label": "Паливо"
+            "fuel/biodiesel": {
+                "label": "Біодизель"
+            },
+            "fuel/diesel": {
+                "label": "Дизельне паливо"
+            },
+            "fuel/e10": {
+                "label": "E10"
+            },
+            "fuel/e85": {
+                "label": "E85"
+            },
+            "fuel/lpg": {
+                "label": "Пропан"
+            },
+            "fuel/octane_100": {
+                "label": "Гоночний бензин"
+            },
+            "fuel/octane_91": {
+                "label": "Звичайний бензин"
+            },
+            "fuel/octane_95": {
+                "label": "Покращений бензин"
+            },
+            "fuel/octane_98": {
+                "label": "Преміум бензин"
             },
             "gauge": {
                 "label": "Колія"
@@ -1209,9 +1223,6 @@
                     "underground": "Підземна"
                 }
             },
-            "payment_multi": {
-                "label": "Види розрахунків"
-            },
             "phone": {
                 "label": "Телефон",
                 "placeholder": "+31 42 123 4567"
@@ -1269,8 +1280,30 @@
             "railway": {
                 "label": "Тип"
             },
-            "recycling_accepts": {
-                "label": "Приймається"
+            "recycling/cans": {
+                "label": "Бляшані банки"
+            },
+            "recycling/clothes": {
+                "label": "Одяг"
+            },
+            "recycling/glass": {
+                "label": "Скло"
+            },
+            "recycling/glass_bottles": {
+                "label": "Скляні пляшки"
+            },
+            "recycling/paper": {
+                "label": "Папір"
+            },
+            "recycling/plastic": {
+                "label": "Пластик"
+            },
+            "recycling/type": {
+                "label": "Місце збору",
+                "options": {
+                    "centre": "Центр приймання",
+                    "container": "Контейнер"
+                }
             },
             "ref": {
                 "label": "Номер"
@@ -1824,10 +1857,6 @@
                 "name": "Пошта",
                 "terms": "Post Office, gjinf, поштамт, пошта, поштове відділення"
             },
-            "amenity/prison": {
-                "name": "Вʼязниця",
-                "terms": "в'язниця,вʼязниця,ізолятор,сізо,камера,утримання,покарання,строк,слідство"
-            },
             "amenity/pub": {
                 "name": "Паб",
                 "terms": "Pub, gf, бар, пивна, шинок, пивниця, трактир"
@@ -2001,8 +2030,8 @@
                 "terms": "Cycle Barrier, gthtirjlf lkz dtkjcbgtlbcnsd, перешкода для велосипедів"
             },
             "barrier/ditch": {
-                "name": "Рівчак",
-                "terms": "рів,окоп,траншея,шурф"
+                "name": "Канава",
+                "terms": "Ditch, rfyfdf, рів, кювет, рівчак, канал, траншея"
             },
             "barrier/entrance": {
                 "name": "Вхід",
@@ -3967,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Туристичний маршрут",
                 "terms": "Hiking Route, nehbcnbxybq vfhihen, пішохідний маршрут, туристичний маршрут, туризм"
-            },
-            "type/route/horse": {
-                "name": "Маршрут для верхової їзди",
-                "terms": "кінь,верхи,шлях,маршрут"
             },
             "type/route/pipeline": {
                 "name": "Трубопровід",

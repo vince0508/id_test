@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Desa els canvis",
-        "description_placeholder": "Breu descripció de les teves contribucions (necessari)",
+        "description_placeholder": "Breu descripció de les vostres contribucions",
         "message_label": "Comentari de conjunt de canvis",
         "upload_explanation": "Els canvis que deseu seran visibles a tots els mapes que utilitzin dades d'OpenStreetMap.",
         "upload_explanation_with_user": "Els canvis que deseu com a {user} seran visibles en tots els mapes que utilitzin dades d'OpenStreetMap.",
@@ -253,9 +253,7 @@
         "deleted": "Eliminat",
         "created": "Creat",
         "about_changeset_comments": "Quant als comentaris del conjunt de canvis",
-        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments",
-        "google_warning": "Has mencionat Google en aquest comentari: recorda que la còpia de Google Maps està estrictament prohibida.",
-        "google_warning_link": "http://www.openstreetmap.org/copyright"
+        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments"
     },
     "contributors": {
         "list": "Edicions fetes per {users}",
@@ -316,7 +314,6 @@
             "yes": "Sí",
             "no": "No"
         },
-        "add": "Afegir",
         "none": "Cap",
         "node": "Node",
         "way": "Via",
@@ -330,14 +327,11 @@
         "percent_brightness": "{opacity}% brillantor",
         "none": "Cap",
         "best_imagery": "Font d'imatgeria millor coneguda per a aquesta ubicació",
-        "switch": "Senyals de trànsit ",
         "custom": "Personalitzar",
         "custom_button": "Editar el fons personalitzat",
         "custom_prompt": "Introduïu una plantilla d'URL de casella. Els paràmetres vàlids són {z}, {x}, {y} per a l'esquema Z/X/Y i  {u} per a l'esquema quadtile.",
-        "fix_misalignment": "Ajusta la alineació de la imatgeria",
         "imagery_source_faq": "D'on prové aquesta imatgeria?",
         "reset": "reiniciar",
-        "offset": "Arrosega cap a qualsevol lloc de la zona gris de sota per ajustar la alineació de la imatgeria, o entra els valors de la alineació en metres.",
         "minimap": {
             "description": "Miniatura del mapa",
             "tooltip": "Mostrar un mapa amb menys zoom per ajudar a localitzar l'àrea que es mostra actualment."
@@ -512,7 +506,7 @@
         "title": "Superposició de fotos (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Senyals de trànsit de Mapillary (cal activar la capa de fotografies).",
+        "tooltip": "Senyals de Trànsit de Mapillary",
         "title": "Superposició de Senyals de Trànsit (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +607,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Característiques de Barrera"
-            },
             "category-building": {
                 "name": "Característiques d'Edificació"
             },
@@ -785,9 +776,6 @@
             "bicycle_parking": {
                 "label": "Tipus"
             },
-            "bin": {
-                "label": "Paperera"
-            },
             "boundary": {
                 "label": "Tipus"
             },
@@ -858,9 +846,6 @@
             },
             "cuisine": {
                 "label": "Tipus de cuina"
-            },
-            "currency_multi": {
-                "label": "Tipus de divisa"
             },
             "cycleway": {
                 "label": "Carrils Bici",
@@ -965,8 +950,32 @@
             "fuel": {
                 "label": "Carburant"
             },
-            "fuel_multi": {
-                "label": "Tipus de combustible"
+            "fuel/biodiesel": {
+                "label": "Ven Biodièsel"
+            },
+            "fuel/diesel": {
+                "label": "Ven dièsel"
+            },
+            "fuel/e10": {
+                "label": "Ven E10"
+            },
+            "fuel/e85": {
+                "label": "Ven E85"
+            },
+            "fuel/lpg": {
+                "label": "Ven propà"
+            },
+            "fuel/octane_100": {
+                "label": "Ven benzina de competició"
+            },
+            "fuel/octane_91": {
+                "label": "Ven benzina regular"
+            },
+            "fuel/octane_95": {
+                "label": "Ven benzina de mig grau"
+            },
+            "fuel/octane_98": {
+                "label": "Ven benzina premium"
             },
             "gauge": {
                 "label": "Ample"
@@ -1210,9 +1219,6 @@
                     "underground": "Subterrani"
                 }
             },
-            "payment_multi": {
-                "label": "Tipus de pagament"
-            },
             "phone": {
                 "label": "Telèfon",
                 "placeholder": "+31 42 123 4567"
@@ -1270,8 +1276,30 @@
             "railway": {
                 "label": "Tipus"
             },
-            "recycling_accepts": {
-                "label": "N'accepta"
+            "recycling/cans": {
+                "label": "Accepta llaunes"
+            },
+            "recycling/clothes": {
+                "label": "Accepta roba"
+            },
+            "recycling/glass": {
+                "label": "Accepta vidre"
+            },
+            "recycling/glass_bottles": {
+                "label": "Accepta ampolles de vidre"
+            },
+            "recycling/paper": {
+                "label": "Accepta paper"
+            },
+            "recycling/plastic": {
+                "label": "Accepta Plàstic"
+            },
+            "recycling/type": {
+                "label": "Tipus de reciclatge",
+                "options": {
+                    "centre": "Centre de Reciclatge",
+                    "container": "Contenidor"
+                }
             },
             "ref": {
                 "label": "Referència"
@@ -1407,9 +1435,6 @@
                     "tunnel": "Túnel"
                 },
                 "placeholder": "Desconegut"
-            },
-            "studio": {
-                "label": "Tipus"
             },
             "substation": {
                 "label": "Tipus"
@@ -1789,9 +1814,6 @@
                 "name": "Oficina de correus",
                 "terms": "Oficina de Correus, Correus, Edifici de Correus, Cartes, Carters"
             },
-            "amenity/prison": {
-                "name": "Terrenys de presó"
-            },
             "amenity/pub": {
                 "name": "Pub",
                 "terms": "Bar, Bar Musical, Pub, Local de copes, Local d'oci nocturn, Bareto"
@@ -1940,7 +1962,8 @@
                 "terms": "Barrera per a ciclistes, Ciclisme, Bicicleta, Ruta cicloturista, Valla, Tanca, Tancament, Tanca per a bicicletes"
             },
             "barrier/ditch": {
-                "name": "Trinxera"
+                "name": "Sèquia",
+                "terms": "Sèquia, Canal, Aigua, Via aquífera, Torrent, Conducció d'aigua, Aquífer, Rierol"
             },
             "barrier/entrance": {
                 "name": "Entrada",
@@ -2452,9 +2475,6 @@
                 "name": "Cul de sac",
                 "terms": "Girar 180 graus, Canviar de sentit"
             },
-            "highway/unclassified": {
-                "name": "Carretera menor / sense classificació"
-            },
             "historic": {
                 "name": "Lloc històric",
                 "terms": "Lloc històric"
@@ -2579,9 +2599,6 @@
             },
             "leisure/adult_gaming_centre": {
                 "name": "Centre d'oci adult"
-            },
-            "leisure/bird_hide": {
-                "name": "Observatori d'ocells"
             },
             "leisure/bowling_alley": {
                 "name": "Bolera"
@@ -3344,9 +3361,6 @@
             "shop/newsagent": {
                 "name": "Botiga de diaris i revistes"
             },
-            "shop/nutrition_supplements": {
-                "name": "Botiga de suplements nutricionals"
-            },
             "shop/optician": {
                 "name": "Òptica"
             },
@@ -3603,9 +3617,6 @@
             },
             "type/route/hiking": {
                 "name": "Ruta senderista"
-            },
-            "type/route/horse": {
-                "name": "Ruta de conducció"
             },
             "type/route/pipeline": {
                 "name": "Traçat d'una canonada"

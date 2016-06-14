@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Lưu các Thay đổi",
-        "description_placeholder": "Tóm lược các đóng góp của bạn (bắt buộc)",
+        "description_placeholder": "Tóm lược các đóng góp của bạn",
         "message_label": "Tóm lược sửa đổi",
         "upload_explanation": "Các thay đổi bạn thực hiện sẽ xuất hiện trên tất cả các bản đồ sử dụng dữ liệu OpenStreetMap.",
         "upload_explanation_with_user": "Các thay đổi bạn thực hiện dưới tên {user} sẽ xuất hiện trên tất cả các bản đồ sử dụng dữ liệu OpenStreetMap.",
@@ -316,7 +316,6 @@
             "yes": "Có",
             "no": "Không"
         },
-        "add": "Thêm",
         "none": "Không có",
         "node": "Nốt",
         "way": "Lối",
@@ -330,7 +329,6 @@
         "percent_brightness": "Độ sáng {opacity}%",
         "none": "Không có",
         "best_imagery": "Nguồn hình ảnh hữu ích nhất đối với nơi này",
-        "switch": "Quay về hình nền này",
         "custom": "Tùy biến",
         "custom_button": "Sửa hình nền tùy biến",
         "custom_prompt": "Nhập định dạng URL của các mảnh bản đồ. Bạn có thể sử dụng các dấu hiệu {z}, {x}, {y} cho định dạng Z/X/Y hoặc {u} cho định dạng quadtile.",
@@ -512,7 +510,7 @@
         "title": "Lớp phủ Hình ảnh (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Bảng giao thông do Mapillary cung cấp (phải bật Lớp phủ Hình ảnh)",
+        "tooltip": "Bảng giao thông do Mapillary cung cấp",
         "title": "Lớp phủ Bảng Giao thông (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Liên quan đến Chướng ngại"
-            },
             "category-building": {
                 "name": "Liên quan đến Tòa nhà"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Kiểu"
             },
-            "bin": {
-                "label": "Thùng rác"
-            },
             "boundary": {
                 "label": "Kiểu"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Ẩm thực"
-            },
-            "currency_multi": {
-                "label": "Loại Tiền"
             },
             "cycleway": {
                 "label": "Làn Xe đạp",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Nhiên liệu"
             },
-            "fuel_multi": {
-                "label": "Loại Xăng"
+            "fuel/biodiesel": {
+                "label": "Bán Diesel Sinh học"
+            },
+            "fuel/diesel": {
+                "label": "Bán Diesel"
+            },
+            "fuel/e10": {
+                "label": "Bán E10"
+            },
+            "fuel/e85": {
+                "label": "Bán E85"
+            },
+            "fuel/lpg": {
+                "label": "Bán Prôpan"
+            },
+            "fuel/octane_100": {
+                "label": "Bán Xăng Xe đua"
+            },
+            "fuel/octane_91": {
+                "label": "Bán Xăng Bình thường"
+            },
+            "fuel/octane_95": {
+                "label": "Bán Xăng Trung hạng"
+            },
+            "fuel/octane_98": {
+                "label": "Bán Xăng Thượng hạng"
             },
             "gauge": {
                 "label": "Khổ"
@@ -1210,9 +1223,6 @@
                     "underground": "Ngầm"
                 }
             },
-            "payment_multi": {
-                "label": "Phương thức Thanh toán"
-            },
             "phone": {
                 "label": "Số Điện thoại",
                 "placeholder": "+84 1 234 5678"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Kiểu"
             },
-            "recycling_accepts": {
-                "label": "Nhận"
+            "recycling/cans": {
+                "label": "Nhận Đồ Hộp"
+            },
+            "recycling/clothes": {
+                "label": "Nhận Quần áo"
+            },
+            "recycling/glass": {
+                "label": "Nhận Đồ Thủy tinh"
+            },
+            "recycling/glass_bottles": {
+                "label": "Nhận Chai Thủy tinh"
+            },
+            "recycling/paper": {
+                "label": "Nhận Tờ giấy"
+            },
+            "recycling/plastic": {
+                "label": "Nhận Đồ Nhựa"
+            },
+            "recycling/type": {
+                "label": "Kiểu Tái chế",
+                "options": {
+                    "centre": "Trung tâm Tái chế",
+                    "container": "Thùng"
+                }
             },
             "ref": {
                 "label": "Số"
@@ -1824,10 +1856,6 @@
             "amenity/post_office": {
                 "name": "Bưu điện",
                 "terms": "nhà bưu điện, bưu điện, bưu chính, nha buu dien, buu dien, buu chinh"
-            },
-            "amenity/prison": {
-                "name": "Sân Nhà tù",
-                "terms": "sân nhà tù, sân tù, san nha tu, san tu"
             },
             "amenity/pub": {
                 "name": "Quán rượu Pub",
@@ -3968,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Tuyến Đường đi bộ dài",
                 "terms": "tuyến đường đi bộ dài, tuyến đi bộ đường dài, tuyen duong di bo dai, tuyen di bo duong dai"
-            },
-            "type/route/horse": {
-                "name": "Tuyến đường Cưỡi ngựa",
-                "terms": "tuyến đường cưỡi ngựa, tuyen duong cuoi ngua"
             },
             "type/route/pipeline": {
                 "name": "Tuyến Đường ống",

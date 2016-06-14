@@ -226,6 +226,7 @@
     },
     "commit": {
         "title": "Değişiklikleri kaydet",
+        "description_placeholder": "Katkı sağlayanlar hakkında kısa açıklama",
         "upload_explanation": "Yüklediğin değişiklikler OpenStreetMap verilerini kullanan bütün haritalarda görülebilecek. ",
         "upload_explanation_with_user": "{user} olarak yüklediğin değişiklikler OpenStreetMap verilerini kullanan bütün haritalarda görülebilecek. ",
         "save": "Kaydet",
@@ -765,6 +766,9 @@
             "fuel": {
                 "label": "Benzin İstasyonu"
             },
+            "fuel/diesel": {
+                "label": "Mazot Var"
+            },
             "gauge": {
                 "label": "Dingil Genişliği"
             },
@@ -960,6 +964,11 @@
             },
             "railway": {
                 "label": "Tip"
+            },
+            "recycling/type": {
+                "options": {
+                    "centre": "Geri Dönüşüm Merkezi"
+                }
             },
             "ref": {
                 "label": "Referans"
@@ -1321,6 +1330,9 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Bisiklet Bariyeri"
+            },
+            "barrier/ditch": {
+                "name": "Sulama kanalı"
             },
             "barrier/entrance": {
                 "name": "Giriş"

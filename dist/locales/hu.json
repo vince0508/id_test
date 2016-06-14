@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Módosítások mentése",
-        "description_placeholder": "A közreműködéseid rövid leírása (kötelező)",
+        "description_placeholder": "A közreműködésed rövid összefoglalója",
         "message_label": "Módosításcsomag megjegyzés",
         "upload_explanation": "Az általad feltöltött változtatások minden OpenStreetMapet használó térképen láthatóak lesznek.",
         "upload_explanation_with_user": "Az általad {user} néven feltöltött változtatások minden OpenStreetMapet használó térképen láthatóak lesznek.",
@@ -316,7 +316,6 @@
             "yes": "Igen",
             "no": "Nem"
         },
-        "add": "Hozzáadás",
         "none": "Nincs",
         "node": "Csomópont",
         "way": "Út",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% fényerő",
         "none": "Nincs",
         "best_imagery": "Legjobb ismert légifeltétel ehhez a helyszínhez",
-        "switch": "Visszaváltás erre a háttérre",
         "custom": "Egyéni",
         "custom_button": "Egyedi háttér szerkesztése",
         "custom_prompt": "Adj meg egy csempe URL sablont. Érvényes tokenek: {z}, {x}, {y} a Z/X/Y rendszerű URL-ekhez és {u} a kvadratikusakhoz.",
@@ -512,7 +510,7 @@
         "title": "Fotó réteg (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Közlekedési táblák a Mapillaryről (be kell kapcsolni a fotó réteget)",
+        "tooltip": "Közlekedési táblák a Mapillary-ből",
         "title": "Közlekedési tábla réteg (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Akadály elemek"
-            },
             "category-building": {
                 "name": "Épület elemek"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Típus"
             },
-            "bin": {
-                "label": "Szemetes kuka"
-            },
             "boundary": {
                 "label": "Típus"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Konyha"
-            },
-            "currency_multi": {
-                "label": "Pénznem típusok"
             },
             "cycleway": {
                 "label": "Kerékpáros sávok",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Üzemanyag"
             },
-            "fuel_multi": {
-                "label": "Üzemanyag típusok"
+            "fuel/biodiesel": {
+                "label": "Biodízelt árul"
+            },
+            "fuel/diesel": {
+                "label": "Dízelt árul"
+            },
+            "fuel/e10": {
+                "label": "E10-et árul"
+            },
+            "fuel/e85": {
+                "label": "E85-öt árul"
+            },
+            "fuel/lpg": {
+                "label": "Propánt árul"
+            },
+            "fuel/octane_100": {
+                "label": "Verseny benzint árul  min 100 oktánnal"
+            },
+            "fuel/octane_91": {
+                "label": "Normál benzint árul"
+            },
+            "fuel/octane_95": {
+                "label": "95-ös oktánszámú szuperbenzint árul"
+            },
+            "fuel/octane_98": {
+                "label": "Prémium benzint árul"
             },
             "gauge": {
                 "label": "Nyomtáv"
@@ -1210,9 +1223,6 @@
                     "underground": "Földalatti parkoló"
                 }
             },
-            "payment_multi": {
-                "label": "Fizetési típusok"
-            },
             "phone": {
                 "label": "Telefonszám",
                 "placeholder": "+36 1 123 45 67"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Típus"
             },
-            "recycling_accepts": {
-                "label": "Elfogad"
+            "recycling/cans": {
+                "label": "Fémhulladékot elfogad"
+            },
+            "recycling/clothes": {
+                "label": "Használt ruhát elfogad"
+            },
+            "recycling/glass": {
+                "label": "Üveget elfogad"
+            },
+            "recycling/glass_bottles": {
+                "label": "Üvegpalackot elfogad"
+            },
+            "recycling/paper": {
+                "label": "Papírt elfogad"
+            },
+            "recycling/plastic": {
+                "label": "Műanyagot elfogad"
+            },
+            "recycling/type": {
+                "label": "Újrahasznosítás típusa",
+                "options": {
+                    "centre": "Újrahasznosító központ",
+                    "container": "Konténer"
+                }
             },
             "ref": {
                 "label": "Azonosító"
@@ -1825,10 +1857,6 @@
                 "name": "Posta",
                 "terms": "postaközpont,posta,levél,kézbesítő,kézbesítés"
             },
-            "amenity/prison": {
-                "name": "Börtönterület",
-                "terms": "börtön, fogház, fegyház"
-            },
             "amenity/pub": {
                 "name": "Kocsma",
                 "terms": "italmérés, késdobáló, csehó, borozó, poharazó, italbolt, ivó, talponálló, kricsmi, piálda, söntés, csapszék, söröző, sörház"
@@ -2003,7 +2031,7 @@
             },
             "barrier/ditch": {
                 "name": "Árok",
-                "terms": "árok, gödör"
+                "terms": "Árok"
             },
             "barrier/entrance": {
                 "name": "Bejárat",
@@ -3968,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Turistaút",
                 "terms": "Túraút, Gyalogtúra"
-            },
-            "type/route/horse": {
-                "name": "Lovaglóút",
-                "terms": "lovagló út, lovagló útvonal, lovas út, lovas útvonal"
             },
             "type/route/pipeline": {
                 "name": "Csővezeték útvonal",

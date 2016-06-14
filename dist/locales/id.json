@@ -232,6 +232,7 @@
     },
     "commit": {
         "title": "Simpan Perubahan",
+        "description_placeholder": "Deskripsi singkat kontribusi Anda",
         "message_label": "Komentar set perubahan",
         "upload_explanation": "Perubahan yang anda unggah akan tampil di seluruh peta yang menggunakan data OpenStreetMap.",
         "upload_explanation_with_user": "Perubahan yang anda unggah sebagai {user} akan tampil di seluruh peta yang menggunakan data OpenStreetMap.",
@@ -796,6 +797,33 @@
             "fuel": {
                 "label": "Bahan bakar"
             },
+            "fuel/biodiesel": {
+                "label": "Menjual Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Menjual Diesel"
+            },
+            "fuel/e10": {
+                "label": "Menjual E10"
+            },
+            "fuel/e85": {
+                "label": "Menjual E85"
+            },
+            "fuel/lpg": {
+                "label": "Menjual Propana"
+            },
+            "fuel/octane_100": {
+                "label": "Menjual Bensin Balap"
+            },
+            "fuel/octane_91": {
+                "label": "Menjual Bensin Biasa"
+            },
+            "fuel/octane_95": {
+                "label": "Menjual Bensin Kualitas Menengah"
+            },
+            "fuel/octane_98": {
+                "label": "Menjual Bensin Kualitas Tinggi"
+            },
             "gender": {
                 "label": "Kelamin",
                 "options": {
@@ -1000,6 +1028,24 @@
             },
             "railway": {
                 "label": "Tipe"
+            },
+            "recycling/cans": {
+                "label": "Menerima Kaleng"
+            },
+            "recycling/clothes": {
+                "label": "Menerima Pakaian"
+            },
+            "recycling/glass": {
+                "label": "Menerima Kaca"
+            },
+            "recycling/paper": {
+                "label": "Menerima Kertas"
+            },
+            "recycling/type": {
+                "label": "Jenis Daur Ulang",
+                "options": {
+                    "centre": "Pusat Daur Ulang"
+                }
             },
             "ref": {
                 "label": "Referensi"
@@ -1453,6 +1499,9 @@
             },
             "barrier/city_wall": {
                 "name": "Dinding Kota"
+            },
+            "barrier/ditch": {
+                "name": "Parit"
             },
             "barrier/entrance": {
                 "name": "Pintu Masuk"

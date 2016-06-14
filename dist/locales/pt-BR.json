@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Salvar Alterações",
-        "description_placeholder": "Breve descrição de suas contribuições (obrigatório)",
+        "description_placeholder": "Descrição curta e clara de suas contribuições",
         "message_label": "Comentário para o conjunto de alterações",
         "upload_explanation": "As alterações que você enviar ficarão visíveis em todos os mapas que usam dados do OpenStreetMap. Atenção: NÃO é permitido copiar nomes de ruas do Google Maps, Bing, mapas impressos ou quaisquer fontes que possuam copyright.",
         "upload_explanation_with_user": "As alterações que você enviar como {user} estarão visíveis em todos os mapas que usam os dados do OpenStreetMap.<br><br>\n<b>Atenção:</b> NÃO é permitido copiar nomes de ruas do Google Maps, Bing, mapas impressos ou quaisquer fontes que possuam copyright.",
@@ -316,7 +316,6 @@
             "yes": "Sim",
             "no": "Não"
         },
-        "add": "Adicionar",
         "none": "Nenhum",
         "node": "Ponto",
         "way": "Linha",
@@ -330,7 +329,6 @@
         "percent_brightness": "Brilho de {opacity}%",
         "none": "Nenhum",
         "best_imagery": "Melhor imagem de satélite conhecida para esta localização",
-        "switch": "Voltar para este fundo de tela",
         "custom": "Customizado",
         "custom_button": "Editar fundo de tela personalizado",
         "custom_prompt": "Informe um modelo de URL de quadrículas. Tokens válidos são {z}, {x}, {y} para o esquema Z/X/Y e {u} para o esquema quadtile.",
@@ -512,7 +510,7 @@
         "title": "Camada de Fotos (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Sinais de trânsito do Mapillary (Camada de Foto deve ser habilitada)",
+        "tooltip": "Placas de trânsito do Mapillary",
         "title": "Camada de Placas de Trânsito (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Elementos de Barreira"
-            },
             "category-building": {
                 "name": "Tipos de Edificações"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Tipo"
             },
-            "bin": {
-                "label": "Lixeira"
-            },
             "boundary": {
                 "label": "Tipo"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Culinária"
-            },
-            "currency_multi": {
-                "label": "Tipos de Moeda"
             },
             "cycleway": {
                 "label": "Ciclofaixas",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Combustível"
             },
-            "fuel_multi": {
-                "label": "Tipos de Combustível"
+            "fuel/biodiesel": {
+                "label": "Vende Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Vende Diesel"
+            },
+            "fuel/e10": {
+                "label": "Vende Gasolina E10 10% Álcool"
+            },
+            "fuel/e85": {
+                "label": "Vende Combustível E85 85 Álcool/15 Gasolina"
+            },
+            "fuel/lpg": {
+                "label": "Vende Propano"
+            },
+            "fuel/octane_100": {
+                "label": "Vende Gasolina de Competição"
+            },
+            "fuel/octane_91": {
+                "label": "Vende Gasolina Comum"
+            },
+            "fuel/octane_95": {
+                "label": "Vende Gasolina Aditivada"
+            },
+            "fuel/octane_98": {
+                "label": "Vende Gasolina Premium"
             },
             "gauge": {
                 "label": "Bitola"
@@ -1210,9 +1223,6 @@
                     "underground": "Subterrâneo"
                 }
             },
-            "payment_multi": {
-                "label": "Tipos de Pagamento"
-            },
             "phone": {
                 "label": "Telefone",
                 "placeholder": "+55 11 0982 1098"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Tipo"
             },
-            "recycling_accepts": {
-                "label": "Aceita"
+            "recycling/cans": {
+                "label": "Aceita Latinhas"
+            },
+            "recycling/clothes": {
+                "label": "Aceita Roupas"
+            },
+            "recycling/glass": {
+                "label": "Aceita Vidro"
+            },
+            "recycling/glass_bottles": {
+                "label": "Aceita garrafa de vidro"
+            },
+            "recycling/paper": {
+                "label": "Aceita Papel"
+            },
+            "recycling/plastic": {
+                "label": "Aceita Plástico"
+            },
+            "recycling/type": {
+                "label": "Tipo de Reciclagem",
+                "options": {
+                    "centre": "Centro de Reciclagem",
+                    "container": "Container"
+                }
             },
             "ref": {
                 "label": "Código de referência"
@@ -1594,8 +1626,8 @@
                 "terms": "Serviço"
             },
             "amenity/arts_centre": {
-                "name": "Centro Cultural",
-                "terms": "Centro de Artes, Artes, Centro Artístico, Teatro, Cinema, Espetáculo, Exposições, Galeria, Exposição, Cultura, Espaço Cultural, Pintura, Artes Plásticas"
+                "name": "Centro/Escola de Artes",
+                "terms": "Centro de Artes, Escola de Artes, Artes, Centro Artístico, Escola Artística, Teatro, Cinema, Espetáculo, Exposições"
             },
             "amenity/atm": {
                 "name": "Caixa Eletrônico",
@@ -1825,10 +1857,6 @@
                 "name": "Agência de Correios",
                 "terms": "Correios, Encomendas, Transporte, Log, Cargas"
             },
-            "amenity/prison": {
-                "name": "Presídio",
-                "terms": "Cela, Cadeia"
-            },
             "amenity/pub": {
                 "name": "Bar",
                 "terms": "Pub, botequim, boteco, buteco"
@@ -2003,7 +2031,7 @@
             },
             "barrier/ditch": {
                 "name": "Vala",
-                "terms": "Fosso, trincheira"
+                "terms": "Vala"
             },
             "barrier/entrance": {
                 "name": "Entrada",
@@ -3968,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Rota de Caminhada",
                 "terms": "Rota de Trekking"
-            },
-            "type/route/horse": {
-                "name": "Rota de Equitação",
-                "terms": "Rota de Montaria, Trilha de Equitação"
             },
             "type/route/pipeline": {
                 "name": "Rota de Tubulação",

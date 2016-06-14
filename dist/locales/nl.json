@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Aanpassingen Opslaan",
-        "description_placeholder": "Een korte omschrijving van je bijdragen (verplicht)",
+        "description_placeholder": "Een korte omschrijving van je bijdragen",
         "message_label": "Opmerking bij wijzigingen",
         "upload_explanation": "De aanpassingen die je uploadt worden zichtbaar op alle kaarten die de gegevens van OpenStreetMap gebruiken.",
         "upload_explanation_with_user": "De aanpassingen die je als {user} uploadt worden zichtbaar op alle kaarten die de gegevens van OpenStreetMap gebruiken.",
@@ -291,8 +291,8 @@
         "locating": "Bezig met localiseren, even geduld ..."
     },
     "inspector": {
-        "no_documentation_combination": "Er is geen documentatie beschikbaar voor deze tag",
-        "no_documentation_key": "Er is geen documentatie beschikbaar voor deze sleutel",
+        "no_documentation_combination": "Voor deze tag is geen documentatie beschikbaar.",
+        "no_documentation_key": "Er is geen documentatie beschikbaar voor deze categorie",
         "show_more": "Toon Meer",
         "view_on_osm": "Toon op openstreetmap.org",
         "all_fields": "Alle velden",
@@ -316,7 +316,6 @@
             "yes": "Ja",
             "no": "Nee"
         },
-        "add": "Voeg toe",
         "none": "Geen",
         "node": "Knooppunt",
         "way": "Weg",
@@ -330,7 +329,6 @@
         "percent_brightness": "Helderheid: {opacity}%",
         "none": "Geen",
         "best_imagery": "Beste bekende afbeeldingsbron voor deze locatie",
-        "switch": "Selecteer terug deze achtergrond",
         "custom": "Aangepast",
         "custom_button": "Aangepaste achtergrond aanpassen",
         "custom_prompt": "Voeg een tegel-URL-sjabloon toe. Geldige placeholders zijn {z}, {x}, {y} voor het Z/X/Y-schema en {u} voor het quadtile-schema.",
@@ -512,7 +510,7 @@
         "title": "Foto-laag (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Verkeerslichten uit Mapillary (foto-laag moet geactiveerd zijn)",
+        "tooltip": "Verkeerslichten uit Mapillary",
         "title": "Herkende-verkeersborden-laag (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Afscheidingsobjecten"
-            },
             "category-building": {
                 "name": "Gebouwobjecten"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Type"
             },
-            "bin": {
-                "label": "Vuilnisbak"
-            },
             "boundary": {
                 "label": "Type"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Keuken"
-            },
-            "currency_multi": {
-                "label": "Munteenheden"
             },
             "cycleway": {
                 "label": "Fietspaden",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Brandstof"
             },
-            "fuel_multi": {
-                "label": "Brandstoftypes"
+            "fuel/biodiesel": {
+                "label": "Verkoopt Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Verkoopt Diesel"
+            },
+            "fuel/e10": {
+                "label": "Verkoopt E10"
+            },
+            "fuel/e85": {
+                "label": "Verkoopt E85"
+            },
+            "fuel/lpg": {
+                "label": "Verkoopt Propaan"
+            },
+            "fuel/octane_100": {
+                "label": "Verkoopt racingbrandstof"
+            },
+            "fuel/octane_91": {
+                "label": "Verkoopt gewone benzine (octane 91)"
+            },
+            "fuel/octane_95": {
+                "label": "Verkoopt Super 95"
+            },
+            "fuel/octane_98": {
+                "label": "Verkoopt Super 98"
             },
             "gauge": {
                 "label": "Spoorwijdte"
@@ -1189,7 +1202,7 @@
                 "label": "Openingstijden"
             },
             "operator": {
-                "label": "Uitbatende organizatie"
+                "label": "Uitbatend bedrijf"
             },
             "par": {
                 "label": "Par",
@@ -1209,9 +1222,6 @@
                     "surface": "Oppervlak",
                     "underground": "ondergrond"
                 }
-            },
-            "payment_multi": {
-                "label": "Betalingsmiddelen"
             },
             "phone": {
                 "label": "Telefoonnummer",
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Type"
             },
-            "recycling_accepts": {
-                "label": "Aanvaardt"
+            "recycling/cans": {
+                "label": "Aanvaardt blikjes"
+            },
+            "recycling/clothes": {
+                "label": "Aanvaardt kleren"
+            },
+            "recycling/glass": {
+                "label": "Aanvaardt glas"
+            },
+            "recycling/glass_bottles": {
+                "label": "Aanvaardt glazen flessen"
+            },
+            "recycling/paper": {
+                "label": "Aanvaardt papier"
+            },
+            "recycling/plastic": {
+                "label": "Aanvaardt kunststof"
+            },
+            "recycling/type": {
+                "label": "Recyclage-infrastructuur",
+                "options": {
+                    "centre": "Milieupark/Containerpark",
+                    "container": "Container"
+                }
             },
             "ref": {
                 "label": "Nummering"
@@ -1764,16 +1796,15 @@
                 "terms": "dancing,bar,uitgaan,disco"
             },
             "amenity/parking": {
-                "name": "Autoparking",
-                "terms": "parking,parkeerplaats,garage,parkeergarage,parkeergebouw"
+                "name": "Parking",
+                "terms": "parkeerplaats"
             },
             "amenity/parking_entrance": {
                 "name": "Ingang/Uitgang van Parkingcomplex",
                 "terms": "inrit,uitrit"
             },
             "amenity/parking_space": {
-                "name": "Parkeerplaats binnen parkeergelegenheid",
-                "terms": "individuele parkeerplaats"
+                "name": "Parkeerplaats"
             },
             "amenity/pharmacy": {
                 "name": "Apotheek",
@@ -1984,8 +2015,8 @@
                 "terms": "fiets,fietshek,barrière,veiligheid,afsluiting,hekjes"
             },
             "barrier/ditch": {
-                "name": "Droge gracht",
-                "terms": "loopgraaf,loopgraven"
+                "name": "Gracht",
+                "terms": "gracht,sloot,water"
             },
             "barrier/entrance": {
                 "name": "Doorgang",
@@ -2033,7 +2064,7 @@
             },
             "building/apartments": {
                 "name": "Appartementen",
-                "terms": "flatgebouw,flats,appartementsgebouw,wolkenkrabber,woongebouw,residentie,apartementen"
+                "terms": "flatgebouw,flats,appartementsgebouw,wolkenkrabber,woongebouw,residentie"
             },
             "building/barn": {
                 "name": "Schuur",
@@ -2097,7 +2128,7 @@
             },
             "building/hotel": {
                 "name": "Hotelgebouw",
-                "terms": "hotel,kamers"
+                "terms": "hotel"
             },
             "building/house": {
                 "name": "Huis",
@@ -2489,8 +2520,7 @@
                 "name": "Hulpdienst toegangsweg"
             },
             "highway/service/parking_aisle": {
-                "name": "Rijbaan in parkeergelegenheid",
-                "terms": "parkingweg,parkingas"
+                "name": "Rijbaan in parkeergelegenheid"
             },
             "highway/services": {
                 "name": "Stopplaats aan Autoweg met Veel Faciliteiten",
@@ -3632,7 +3662,7 @@
             },
             "tourism/hotel": {
                 "name": "Hotel",
-                "terms": "hotelgebouw,kamers"
+                "terms": "hotel"
             },
             "tourism/information": {
                 "name": "Informatie",
@@ -3727,10 +3757,7 @@
                 "name": "Wandelroute"
             },
             "type/route/hiking": {
-                "name": "Wandelroute"
-            },
-            "type/route/horse": {
-                "name": "Ruiterroute"
+                "name": "Wandelpad"
             },
             "type/route/pipeline": {
                 "name": "Pijpleidingstraject"

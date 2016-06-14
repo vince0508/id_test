@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Uložit změny",
-        "description_placeholder": "Stručný popis vašich úprav (povinné)",
+        "description_placeholder": "Stručný popis vašich úprav",
         "message_label": "Komentář ke změnám",
         "upload_explanation": "Vámi provedené změny budou viditelné na všech mapách postavených na datech z OpenStreetMap.",
         "upload_explanation_with_user": "Změny provedené pod jménem {user} budou viditelné na všech mapách postavených na datech z OpenStreetMap.",
@@ -316,7 +316,6 @@
             "yes": "Ano",
             "no": "Ne"
         },
-        "add": "Přidat",
         "none": "Žádné",
         "node": "Uzel",
         "way": "Čára",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% viditelnost",
         "none": "Žádné",
         "best_imagery": "Nejlepší známý zdroj podkladů pro toto místo",
-        "switch": "Přepnout zpět na toto pozadí",
         "custom": "Vlastní",
         "custom_button": "Editovat vlastní pozadí",
         "custom_prompt": "Vložte šablonu adres dlaždic. Lze použít tokeny {z}, {x}, {y} pro schéma Z/X/Y a {u} pro hierarchické schéma quadtile.",
@@ -512,7 +510,7 @@
         "title": "Vrstva fotografií (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Dopravní značky z Mapillary (nutné povolit Vrstvu fotografií)",
+        "tooltip": "Dopravní značky z Mapillary",
         "title": "Vrstva dopravních značek (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Překážky"
-            },
             "category-building": {
                 "name": "Budovy"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Typ"
             },
-            "bin": {
-                "label": "Odpadkový koš"
-            },
             "boundary": {
                 "label": "Typ"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Kuchyně"
-            },
-            "currency_multi": {
-                "label": "Měny"
             },
             "cycleway": {
                 "label": "Cyklopruhy",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Palivo"
             },
-            "fuel_multi": {
-                "label": "Paliva"
+            "fuel/biodiesel": {
+                "label": "Bionafta"
+            },
+            "fuel/diesel": {
+                "label": "Nafta"
+            },
+            "fuel/e10": {
+                "label": "E10"
+            },
+            "fuel/e85": {
+                "label": "E85"
+            },
+            "fuel/lpg": {
+                "label": "LPG"
+            },
+            "fuel/octane_100": {
+                "label": "Benzín s okt. číslem 100"
+            },
+            "fuel/octane_91": {
+                "label": "Benzín s okt. číslem 91"
+            },
+            "fuel/octane_95": {
+                "label": "Benzín s okt. číslem 95"
+            },
+            "fuel/octane_98": {
+                "label": "Benzín s okt. číslem 98"
             },
             "gauge": {
                 "label": "Rozchod"
@@ -1210,9 +1223,6 @@
                     "underground": "Podzemní"
                 }
             },
-            "payment_multi": {
-                "label": "Platební kanály"
-            },
             "phone": {
                 "label": "Telefon",
                 "placeholder": "+31 42 123 4567"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Typ"
             },
-            "recycling_accepts": {
-                "label": "Určení"
+            "recycling/cans": {
+                "label": "Plechovky"
+            },
+            "recycling/clothes": {
+                "label": "Textil"
+            },
+            "recycling/glass": {
+                "label": "Sklo"
+            },
+            "recycling/glass_bottles": {
+                "label": "Skleněné láhve"
+            },
+            "recycling/paper": {
+                "label": "Papír"
+            },
+            "recycling/plastic": {
+                "label": "Plast"
+            },
+            "recycling/type": {
+                "label": "Typ recyklačního místa",
+                "options": {
+                    "centre": "Sběrna odpadu",
+                    "container": "Kontejnery"
+                }
             },
             "ref": {
                 "label": "Označení"
@@ -1825,10 +1857,6 @@
                 "name": "Pošta",
                 "terms": "pošta,poštovní úřad,hlavní pošta"
             },
-            "amenity/prison": {
-                "name": "Prostor věznice",
-                "terms": "věznice,vězení,káznice,šatlava,žalář,detence"
-            },
             "amenity/pub": {
                 "name": "Hospoda",
                 "terms": "hospoda,hostinec,hospůdka,pivnice,výčep,lokál"
@@ -2002,8 +2030,8 @@
                 "terms": "zábrana pro cyklisty"
             },
             "barrier/ditch": {
-                "name": "Příkop",
-                "terms": "příkop,zákop"
+                "name": "Příkop jako překážka",
+                "terms": "příkop,járek,jáma,strouha,škarpa,stoka"
             },
             "barrier/entrance": {
                 "name": "Vchod/východ",
@@ -3968,10 +3996,6 @@
             "type/route/hiking": {
                 "name": "Turistická trasa",
                 "terms": "pěší trasa,trasa pro pěší,turistická značka,turistická trasa,značka pro pěší,klub českých turistů,kčt"
-            },
-            "type/route/horse": {
-                "name": "Jezdecká trasa",
-                "terms": "jezdecká trasa,koňská trasa,jezdecká stezka,koňská stezka,kůň,koně,jezdec,jezdce"
             },
             "type/route/pipeline": {
                 "name": "Potrubní trasa",

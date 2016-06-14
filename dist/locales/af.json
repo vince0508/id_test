@@ -153,6 +153,7 @@
     },
     "commit": {
         "title": "Bêre veranderinge",
+        "description_placeholder": "Kortlikse beskrywing van jou bydraes",
         "save": "Bȇre",
         "cancel": "Kanseleer",
         "warnings": "Waarskuwings",
@@ -401,6 +402,9 @@
             },
             "fixme": {
                 "label": "Maak My Reg"
+            },
+            "fuel/diesel": {
+                "label": "Verkoop diesel"
             },
             "highway": {
                 "label": "Tipe"
@@ -749,6 +753,9 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Fietshinderpaal"
+            },
+            "barrier/ditch": {
+                "name": "Sloot"
             },
             "barrier/entrance": {
                 "name": "Ingang"

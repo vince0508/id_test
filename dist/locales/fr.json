@@ -227,7 +227,7 @@
     },
     "zoom_in_edit": "Zoomer pour Modifier",
     "logout": "Déconnexion",
-    "loading_auth": "Connexion à OpenStreetMap...",
+    "loading_auth": "Connexion à Wegoto...",
     "report_a_bug": "Rapporter un bug",
     "help_translate": "Aider à traduire",
     "feature_info": {
@@ -241,10 +241,10 @@
     },
     "commit": {
         "title": "Sauvegarder vos modifications",
-        "description_placeholder": "Brève description de vos contributions (requis)",
+        "description_placeholder": "Description succinte de vos contributions",
         "message_label": "Commentaire de changeset",
-        "upload_explanation": "Les modifications envoyées seront visibles sur toutes les cartes qui utilisent les données d'OpenStreetMap.",
-        "upload_explanation_with_user": "Les modifications envoyées en tant que {user} seront visibles sur toutes les cartes qui utilisent les données d'OpenStreetMap.",
+        "upload_explanation": "Les modifications envoyées seront visibles sur toutes les cartes qui utilisent les données de Wegoto.",
+        "upload_explanation_with_user": "Les modifications envoyées en tant que {user} seront visibles sur toutes les cartes qui utilisent les données de Wegoto.",
         "save": "Sauvegarder",
         "cancel": "Annuler",
         "changes": "{count} changements",
@@ -316,7 +316,6 @@
             "yes": "Oui",
             "no": "Non"
         },
-        "add": "Ajouter",
         "none": "Aucun",
         "node": "Nœud",
         "way": "Chemin",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% luminosité",
         "none": "Aucun",
         "best_imagery": "Meilleure source d'imagerie connue pour cet endroit",
-        "switch": "Revenir à cet arrière-plan",
         "custom": "Personnalisé",
         "custom_button": "Modifier le fond personnalisé",
         "custom_prompt": "Saisir un template d'URL de tuile. Les symboles sont {z}, {x}, {y} pour la structure Z/X/Y et {u} pour la balance des domaines.",
@@ -423,12 +421,12 @@
     },
     "save": {
         "title": "Sauvegarder",
-        "help": "Envoi des modifications au serveur OpenStreetMap afin qu'elles soient visibles par les autres contributeurs.",
+        "help": "Envoi des modifications au serveur Wegoto afin qu'elles soient visibles par les autres contributeurs.",
         "no_changes": "Aucune modification à sauvegarder",
         "error": "Des erreurs sont survenues en tentant de sauvegarder",
         "status_code": "Le serveur a renvoyé le code de statut {code}",
         "unknown_error_details": "S'il vous plaît, assurez-vous d'être connecté à l'internet.",
-        "uploading": "Envoi des modifications vers OpenStreetMap.",
+        "uploading": "Envoi des modifications vers Wegoto.",
         "unsaved_changes": "Vous avez des modifications non enregistrées",
         "conflict": {
             "header": "Résoudre les modifications conflictuelles",
@@ -454,9 +452,9 @@
         }
     },
     "success": {
-        "edited_osm": "OSM Edité!",
-        "just_edited": "Vous venez de participer à OpenStreetMap !",
-        "view_on_osm": "Visualiser sur OSM",
+        "edited_osm": "Base Wegoto Edité!",
+        "just_edited": "Vous venez de participer à Wegoto !",
+        "view_on_osm": "Visualiser sur Wegoto",
         "facebook": "Partager sur Facebook",
         "twitter": "Partager sur Twitter",
         "google": "Partager sur Google+",
@@ -469,7 +467,7 @@
         "cancel": "Annuler"
     },
     "splash": {
-        "welcome": "Bienvenue sur ID, l'éditeur en ligne d'OpenStreetMap",
+        "welcome": "Bienvenue sur ID, l'éditeur en ligne ",
         "text": "ID est un outil convivial mais puissant pour contribuer à la meilleure carte libre du monde. Ceci est la version {version}. Pour plus d'informations consultez {website} et reportez les bugs sur {github}.",
         "walkthrough": "Commencer le tutorial",
         "start": "Editer"
@@ -488,7 +486,7 @@
         "untagged_point": "Point sans attribut",
         "untagged_line": "Ligne sans aucun attribut",
         "untagged_area": "Polygone sans aucun attribut",
-        "many_deletions": "Vous allez supprimer {n} objets. Êtes-vous sûr de vouloir faire cela ? Ces éléments seront supprimés de la carte visible sur openstreetmap.org.",
+        "many_deletions": "Vous allez supprimer {n} objets. Êtes-vous sûr de vouloir faire cela ? Ces éléments seront supprimés de la carte visible ",
         "tag_suggests_area": "Cet attribut {tag} suppose que cette ligne devrait être un polygone, or ce n'est pas le cas",
         "untagged_point_tooltip": "Sélectionnez un type d'élément pour décrire ce point.",
         "untagged_line_tooltip": "Sélectionnez un type d'élément pour décrire cette ligne.",
@@ -512,6 +510,7 @@
         "title": "Surcouche photo (Mapillary)"
     },
     "mapillary_signs": {
+        "tooltip": "Signaux routiers de Mapillary",
         "title": "Surcouche de signaux routiers (Mapillary)"
     },
     "mapillary": {
@@ -562,7 +561,7 @@
         },
         "navigation": {
             "title": "Navigation",
-            "drag": "La vue principale montre les données OpenStreetMap par dessus un fond de carte. Vous pouvez naviguer au sein de la vue en faisant du cliquer-glisser, ou avec les barres de navigation, comme n'importe quelle carte sur Internet. **Faites glisser la carte !**",
+            "drag": "La vue principale montre les données de WegoTO par dessus un fond de carte. Vous pouvez naviguer au sein de la vue en faisant du cliquer-glisser, ou avec les barres de navigation, comme n'importe quelle carte sur Internet. **Faites glisser la carte !**",
             "select": "Les éléments cartographiques sont de trois types : les points, les lignes et les polygones. Chaque élément peut être sélectionné en cliquant dessus. **Cliquez sur le point pour le sélectionner.**",
             "pane": "Lorsqu'un élément est sélectionné, l'éditeur d'éléments est affiché. L'entête nous indique que le type d'élément et le panneau principal nous montre les attributs de l'élément, tels que son nom et son adresse. **Fermez l'éditeur d'éléments en cliquant sur le {button} bouton de fermeture en haut à droite.**",
             "search": "Vous pouvez aussi rechercher des éléments pour la vue courante, ou le monde entier. **Recherchez '{name}'**",
@@ -584,7 +583,7 @@
         },
         "areas": {
             "title": "Polygone",
-            "add": "Les zones sont utilisées pour montrer les frontières d’éléments comme des lacs, bâtiments et des zones résidentielles. Elles peuvent aussi être utilisées pour cartographier plus en détail des éléments que l'on peut cartographier comme des points. **Cliquer sur le {button} zone pour ajouter une nouvelle zone. ",
+            "add": "Les zones sont utilisées pour montrer les forntières d'éleme,ts comme des lacs, batiments et des zones résidentielles. Elles peuvent aussi être utilisées pour cartographier plus en détail des élements que l'on peut cartographier comme des points. **Cliquer sur le {button} zone pour ajouter une nouvelle zone. ",
             "corner": "Dessinez la zone en positionnant les noeuds qui forment la frontière de la zone. **Cliquer sur l'un des coins du terrain de jeux pour démarrer.  ",
             "place": "Dessinez le polygone en ajoutant des nœuds. Terminez le polygone en cliquant sur le nœud de départ. **Dessinez un polygone pour l'aire de jeu.**",
             "search": "**Rechercher '{name}'.**",
@@ -612,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Éléments de barrières"
-            },
             "category-building": {
                 "name": "Éléments pour bâtiments"
             },
@@ -784,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Type"
             },
-            "bin": {
-                "label": "Corbeille"
-            },
             "boundary": {
                 "label": "Type"
             },
@@ -857,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Cuisine"
-            },
-            "currency_multi": {
-                "label": "Types de devises"
             },
             "cycleway": {
                 "label": "Bandes cyclables",
@@ -964,8 +954,32 @@
             "fuel": {
                 "label": "Station-service"
             },
-            "fuel_multi": {
-                "label": "Types de carburants"
+            "fuel/biodiesel": {
+                "label": "Vente de bio-gazole"
+            },
+            "fuel/diesel": {
+                "label": "Vente de gazole"
+            },
+            "fuel/e10": {
+                "label": "Vente de E10"
+            },
+            "fuel/e85": {
+                "label": "Vente de E85"
+            },
+            "fuel/lpg": {
+                "label": "Vente de gaz propane"
+            },
+            "fuel/octane_100": {
+                "label": "Vente d'Octane 100"
+            },
+            "fuel/octane_91": {
+                "label": "Vente de carburant Ordinaire"
+            },
+            "fuel/octane_95": {
+                "label": "Vente de Super 95"
+            },
+            "fuel/octane_98": {
+                "label": "Vente de Super 98"
             },
             "gauge": {
                 "label": "Écartement"
@@ -1209,9 +1223,6 @@
                     "underground": "Souterrain"
                 }
             },
-            "payment_multi": {
-                "label": "Types de paiement"
-            },
             "phone": {
                 "label": "Téléphone ",
                 "placeholder": "+33 1 23 45 67 89"
@@ -1269,8 +1280,30 @@
             "railway": {
                 "label": "Type"
             },
-            "recycling_accepts": {
-                "label": "Accepte"
+            "recycling/cans": {
+                "label": "Accepte les boîtes de conserve"
+            },
+            "recycling/clothes": {
+                "label": "Accepte les vêtements"
+            },
+            "recycling/glass": {
+                "label": "Accepte le verre"
+            },
+            "recycling/glass_bottles": {
+                "label": "Accepte les bouteilles en verre"
+            },
+            "recycling/paper": {
+                "label": "Accepte le papier"
+            },
+            "recycling/plastic": {
+                "label": "Accepte le plastique"
+            },
+            "recycling/type": {
+                "label": "Type de recyclage",
+                "options": {
+                    "centre": "Déchèterie",
+                    "container": "Conteneur de recyclage"
+                }
             },
             "ref": {
                 "label": "Référence"
@@ -1406,9 +1439,6 @@
                     "tunnel": "Tunnel"
                 },
                 "placeholder": "Inconnu"
-            },
-            "studio": {
-                "label": "Type"
             },
             "substation": {
                 "label": "Type"
@@ -1824,10 +1854,6 @@
                 "name": "Bureau de poste",
                 "terms": "Bureau de poste"
             },
-            "amenity/prison": {
-                "name": "Terrains de prison",
-                "terms": "Enceinte de prison"
-            },
             "amenity/pub": {
                 "name": "Pub",
                 "terms": "Pub"
@@ -2001,8 +2027,8 @@
                 "terms": "Chicane vélos, Barrière vélos"
             },
             "barrier/ditch": {
-                "name": "Tranchée",
-                "terms": "Tranchée,Cheminement,Retranchement,Boyau"
+                "name": "Fossé",
+                "terms": "Fossé"
             },
             "barrier/entrance": {
                 "name": "Ouverture",
@@ -2054,7 +2080,7 @@
             },
             "building/apartments": {
                 "name": "Résidence",
-                "terms": "appartements"
+                "terms": "Appartements"
             },
             "building/barn": {
                 "name": "Grange",
@@ -2121,8 +2147,8 @@
                 "terms": "Hôpital, Clinique"
             },
             "building/hotel": {
-                "name": "Bâtiment d'hôtel",
-                "terms": "hôtel,hotel"
+                "name": "Hôtel",
+                "terms": "Hôtel"
             },
             "building/house": {
                 "name": "Maison",
@@ -2633,7 +2659,7 @@
                 "terms": "Mémorial, Monument aux morts, statue, buste, stèle, plaque"
             },
             "historic/monument": {
-                "name": "Grand monument commémoratif",
+                "name": "Monument commémoratif",
                 "terms": "Grand mémorial"
             },
             "historic/ruins": {
@@ -2849,8 +2875,8 @@
                 "terms": "Piste de course à pied"
             },
             "leisure/slipway": {
-                "name": "Mise à l'eau",
-                "terms": "Cale de lancement, Cale, Cale de mise à l'eau, Rampe de mise à l'eau"
+                "name": "Plan incliné",
+                "terms": "Cale de lancement, Cale, Cale de mise à l'eau"
             },
             "leisure/sports_centre": {
                 "name": "Centre sportif / Salle de gymnastique",
@@ -3077,7 +3103,7 @@
                 "terms": "Source"
             },
             "natural/tree": {
-                "name": "Arbre",
+                "name": "Arbre remarquable",
                 "terms": "Arbre"
             },
             "natural/tree_row": {
@@ -3850,7 +3876,7 @@
             },
             "tourism/hotel": {
                 "name": "Hôtel",
-                "terms": "bâtiment d'hôtel,hotel"
+                "terms": "Hôtel"
             },
             "tourism/information": {
                 "name": "Informations",
@@ -3967,10 +3993,6 @@
             "type/route/hiking": {
                 "name": "Sentier pédestre",
                 "terms": "Sentier pédestre"
-            },
-            "type/route/horse": {
-                "name": "Itinéraire équestre",
-                "terms": "Trajet équestre"
             },
             "type/route/pipeline": {
                 "name": "Trajet de pipeline",

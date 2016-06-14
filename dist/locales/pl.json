@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Zapisz zmiany",
-        "description_placeholder": "Zwięzły opis twoich zmian (wymagany)",
+        "description_placeholder": "Zwięzły opis twoich zmian",
         "message_label": "Opis zmian",
         "upload_explanation": "Zmiany, które wyślesz będą widoczne na wszystkich mapach używających danych OpenStreetMap.",
         "upload_explanation_with_user": "Zmiany, które wyślesz jako {user} będą widoczne na wszystkich mapach używających danych OpenStreetMap.",
@@ -253,9 +253,7 @@
         "deleted": "Usunięto",
         "created": "Utworzono",
         "about_changeset_comments": "Jak dobrze opisywać zmiany.",
-        "about_changeset_comments_link": "http://wiki.openstreetmap.org/wiki/Pl:Good_changeset_comments",
-        "google_warning": "W tym komentarzu wspomniałeś o Google: pamiętaj że kopiowanie informacji z Google Maps jest surowo zabronione. ",
-        "google_warning_link": "http://www.openstreetmap.org/copyright"
+        "about_changeset_comments_link": "http://wiki.openstreetmap.org/wiki/Pl:Good_changeset_comments"
     },
     "contributors": {
         "list": "Edycje użytkowników {users}",
@@ -316,7 +314,6 @@
             "yes": "Tak",
             "no": "Nie"
         },
-        "add": "Dodaj",
         "none": "Brak",
         "node": "Węzeł",
         "way": "Droga",
@@ -336,7 +333,6 @@
         "fix_misalignment": "Wyrównaj przesunięcie podkładu",
         "imagery_source_faq": "Skąd pochodzi ta warstwa?",
         "reset": "resetuj",
-        "offset": "Przeciągnij na szare pole poniżej, aby dostosować obrazek, lub wprowadź wartości przesunięcia w metrach.",
         "minimap": {
             "description": "Minimapa",
             "tooltip": "Pokaż oddaloną mapę, aby pomóc zlokalizować wyświetlany obszar."
@@ -511,6 +507,7 @@
         "title": "Nakładka zdjęć (Mapillary)"
     },
     "mapillary_signs": {
+        "tooltip": "Znaki drogowe z serwisu Mapillary",
         "title": "Nakładka z znakami drogowymi (Mapillary)"
     },
     "mapillary": {
@@ -560,7 +557,6 @@
             "title": "Nawigacja",
             "drag": "Główny obszar mapy pokazuje dane OpenStreetMap na tle podkładu. Możesz poruszać się po niej, przeciągając i przewijając tak jak po każdej mapie internetowej. **Przeciągnij mapę!**",
             "select": "Obiekty na mapie reprezentowane są przez punkty, linie i obszary. Wszystkie mogą zostać zaznaczone przez kliknięcie na nich. **Kliknij na punkcie, aby go zaznaczyć.**",
-            "search": "Możesz także wyszukiwać obiekty aktualnie widoczne w oknie, lub gdziekolwiek indziej na świecie. **Wyszukaj \"{name}\"**",
             "choose": "**Naciśnij {name} z listy by wybrać ten obiekt.",
             "chosen": "Wspaniale! {name} jest teraz zaznaczony. **Zamknij edytor obiektów przez naciśnięcie {button} przycisku."
         },
@@ -607,9 +603,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Przeszkody"
-            },
             "category-building": {
                 "name": "Budynek"
             },
@@ -779,9 +772,6 @@
             "bicycle_parking": {
                 "label": "Typ"
             },
-            "bin": {
-                "label": "Kosz na śmieci"
-            },
             "boundary": {
                 "label": "Typ"
             },
@@ -852,9 +842,6 @@
             },
             "cuisine": {
                 "label": "Kuchnia"
-            },
-            "currency_multi": {
-                "label": "Typy środków płatności"
             },
             "cycleway": {
                 "label": "Pasy rowerowe",
@@ -957,8 +944,32 @@
             "fuel": {
                 "label": "Paliwo"
             },
-            "fuel_multi": {
-                "label": "Rodzaje paliw"
+            "fuel/biodiesel": {
+                "label": "Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Diesel"
+            },
+            "fuel/e10": {
+                "label": "E10"
+            },
+            "fuel/e85": {
+                "label": "E85"
+            },
+            "fuel/lpg": {
+                "label": "LPG"
+            },
+            "fuel/octane_100": {
+                "label": "Benzyna wyścigowa (100 oktanów)"
+            },
+            "fuel/octane_91": {
+                "label": "Benzyna niskooktanowa (91 oktanów)"
+            },
+            "fuel/octane_95": {
+                "label": "Benzyna 95"
+            },
+            "fuel/octane_98": {
+                "label": "Benzyna 98"
             },
             "gauge": {
                 "label": "Wskaźnik"
@@ -1202,9 +1213,6 @@
                     "underground": "Podziemny"
                 }
             },
-            "payment_multi": {
-                "label": "Rodzaje płatności"
-            },
             "phone": {
                 "label": "Telefon",
                 "placeholder": "+48 42 123 4567"
@@ -1235,7 +1243,6 @@
                     "nordic": "Kombinacja norweska",
                     "playground": "Nauka jazdy na nartach",
                     "sled": "Tor saneczkowy",
-                    "sleigh": "Sanie",
                     "snow_park": "Snowpark"
                 }
             },
@@ -1253,6 +1260,31 @@
             },
             "railway": {
                 "label": "Typ"
+            },
+            "recycling/cans": {
+                "label": "Przyjmowanie puszek"
+            },
+            "recycling/clothes": {
+                "label": "Ubrania"
+            },
+            "recycling/glass": {
+                "label": "Szkło"
+            },
+            "recycling/glass_bottles": {
+                "label": "Przyjmowanie szklanych butelek"
+            },
+            "recycling/paper": {
+                "label": "Papier"
+            },
+            "recycling/plastic": {
+                "label": "Przyjmowanie plastiku"
+            },
+            "recycling/type": {
+                "label": "Typ miejsca składowania odpadów",
+                "options": {
+                    "centre": "Punkt Selektywnej Zbiórki Odpadów Komunalnych",
+                    "container": "Pojemnik"
+                }
             },
             "ref": {
                 "label": "Numer referencyjny"
@@ -1485,7 +1517,7 @@
                 "terms": "Wyciąg narciarski gondolowy, Gondola"
             },
             "aerialway/magic_carpet": {
-                "name": "Wyciąg narciarski dywanowy",
+                "name": "wyciąg narciarski dywanowy",
                 "terms": "Narciarski pas transmisyjny dla dzieci, "
             },
             "aerialway/platter": {
@@ -1577,8 +1609,7 @@
                 "terms": "wypożyczalnia"
             },
             "amenity/bicycle_repair_station": {
-                "name": "Samoobsługowa stacja naprawy rowerów",
-                "terms": "Naprawa rowerów"
+                "name": "Samoobsługowa stacja naprawy rowerów"
             },
             "amenity/biergarten": {
                 "name": "Ogródek piwny",
@@ -1593,8 +1624,7 @@
                 "terms": "wymiana walut"
             },
             "amenity/bus_station": {
-                "name": "Dworzec autobusowy",
-                "terms": "Przystanek autobusowy"
+                "name": "Dworzec autobusowy"
             },
             "amenity/cafe": {
                 "name": "Kawiarnia",
@@ -1721,8 +1751,7 @@
                 "terms": "Klub nocny,"
             },
             "amenity/parking": {
-                "name": "Parking samochodowy",
-                "terms": "Parking dla samochodów"
+                "name": "Parking samochodowy"
             },
             "amenity/parking_entrance": {
                 "name": "Wjazd/wyjazd z parkingu/garażu"
@@ -1775,8 +1804,7 @@
                 "name": "Półka bookcrossingowa"
             },
             "amenity/recycling": {
-                "name": "Recykling",
-                "terms": "Recykling, Recyklizacja"
+                "name": "Recykling"
             },
             "amenity/register_office": {
                 "name": "Urząd stanu cywilnego"
@@ -1840,32 +1868,22 @@
                 "terms": "teren uniwersytetu,teren akademii,teren politechniki"
             },
             "amenity/vending_machine/cigarettes": {
-                "name": "Automat z papierosami",
-                "terms": "Automat z papierosami"
+                "name": "Automat z papierosami"
             },
             "amenity/vending_machine/condoms": {
-                "name": "Automat z prezerwatywami",
-                "terms": "Automat z prezerwatywami"
+                "name": "Automat z prezerwatywami"
             },
             "amenity/vending_machine/drinks": {
-                "name": "Automat z napojami",
-                "terms": "Automat z napojami"
+                "name": "Automat z napojami"
             },
             "amenity/vending_machine/news_papers": {
-                "name": "Automat z gazetami",
-                "terms": "Automat z gazetami"
-            },
-            "amenity/vending_machine/parking_tickets": {
-                "name": "Parkomat",
-                "terms": "Parkomat"
+                "name": "Automat z gazetami"
             },
             "amenity/vending_machine/sweets": {
-                "name": "Automat z przekąskami",
-                "terms": "Automat z przekąskami"
+                "name": "Automat z przekąskami"
             },
             "amenity/vending_machine/vending_machine": {
-                "name": "Automat sprzedający",
-                "terms": "Automat do sprzedaży"
+                "name": "Automat sprzedający"
             },
             "amenity/veterinary": {
                 "name": "Weterynarz",
@@ -1904,6 +1922,10 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Przegroda antyrowerowa"
+            },
+            "barrier/ditch": {
+                "name": "Rów",
+                "terms": "rów,wykop"
             },
             "barrier/entrance": {
                 "name": "Wejście",
@@ -1964,8 +1986,7 @@
                 "terms": "bunkier, schron,"
             },
             "building/cabin": {
-                "name": "Chata",
-                "terms": "Kabina"
+                "name": "Chata"
             },
             "building/cathedral": {
                 "name": "Budynek katedry"
@@ -2010,8 +2031,7 @@
                 "terms": "Szklarnia"
             },
             "building/hospital": {
-                "name": "Budynek szpitala",
-                "terms": "Budynek Szpitalny"
+                "name": "Budynek szpitala"
             },
             "building/hotel": {
                 "name": "Budynek hotelu"
@@ -2224,8 +2244,7 @@
                 "name": "Tapicer"
             },
             "craft/watchmaker": {
-                "name": "Zegarmistrz",
-                "terms": "zegarki"
+                "name": "Zegarmistrz"
             },
             "craft/window_construction": {
                 "name": "Montaż okien"
@@ -2256,8 +2275,7 @@
                 "name": "Przejście dla pieszych"
             },
             "footway/crosswalk": {
-                "name": "Przejście dla pieszych z zebrą",
-                "terms": "zebra"
+                "name": "Przejście dla pieszych z zebrą"
             },
             "footway/sidewalk": {
                 "name": "Chodnik",
@@ -2342,8 +2360,7 @@
                 "terms": "rampa,wjazd,wyjazd,zjazd"
             },
             "highway/raceway": {
-                "name": "Tor wyścigowy",
-                "terms": "tor samochodowy"
+                "name": "Tor wyścigowy"
             },
             "highway/residential": {
                 "name": "Droga lokalna",
@@ -2383,8 +2400,7 @@
                 "name": "Dojazd dla służb ratowniczych"
             },
             "highway/service/parking_aisle": {
-                "name": "Uliczka parkingowa",
-                "terms": "podjazd parkingowy"
+                "name": "Uliczka parkingowa"
             },
             "highway/services": {
                 "name": "Miejsce Obsługi Podróżnych (MOP)",
@@ -2411,8 +2427,7 @@
                 "terms": "rampa,wjazd,wyjazd,zjazd"
             },
             "highway/track": {
-                "name": "Droga polna lub leśna",
-                "terms": "trakt leśny"
+                "name": "Droga polna lub leśna"
             },
             "highway/traffic_signals": {
                 "name": "Sygnalizacja świetlna",
@@ -2470,8 +2485,7 @@
                 "terms": "kapliczka,przydrożna"
             },
             "junction": {
-                "name": "Skrzyżowanie",
-                "terms": "krzyżówka"
+                "name": "Skrzyżowanie"
             },
             "landuse": {
                 "name": "Zagospodarowanie terenu",
@@ -2490,8 +2504,7 @@
                 "terms": "cmentarz"
             },
             "landuse/churchyard": {
-                "name": "Dziedziniec kościelny",
-                "terms": "Plac kościelny"
+                "name": "Dziedziniec kościelny"
             },
             "landuse/commercial": {
                 "name": "Obszar biurowo-biznesowy"
@@ -2505,8 +2518,7 @@
                 "terms": "ziemia uprawna,grunty rolne"
             },
             "landuse/farmland": {
-                "name": "Pola uprawne",
-                "terms": "Uprawy"
+                "name": "Pola uprawne"
             },
             "landuse/farmyard": {
                 "name": "Teren z zabudowaniami rolniczymi",
@@ -2517,16 +2529,14 @@
                 "terms": "Las"
             },
             "landuse/garages": {
-                "name": "Garaże",
-                "terms": "garaże"
+                "name": "Garaże"
             },
             "landuse/grass": {
                 "name": "Trawa",
                 "terms": "trawa, trawnik, "
             },
             "landuse/industrial": {
-                "name": "Obszar przemysłowy",
-                "terms": "Teren przemysłowy"
+                "name": "Obszar przemysłowy"
             },
             "landuse/landfill": {
                 "name": "Wysypisko",
@@ -2553,8 +2563,7 @@
                 "terms": "kamieniołom, żwirownia, kruszywo,kopalnia odkrywkowa"
             },
             "landuse/residential": {
-                "name": "Zabudowa mieszkaniowa",
-                "terms": "Teren zamieszkały"
+                "name": "Zabudowa mieszkaniowa"
             },
             "landuse/retail": {
                 "name": "Obszar handlowy"
@@ -2575,16 +2584,13 @@
                 "name": "Czatownia ornitologiczna"
             },
             "leisure/bowling_alley": {
-                "name": "Kręgielnia",
-                "terms": "Kręgle"
+                "name": "Kręgielnia"
             },
             "leisure/dog_park": {
-                "name": "Park dla psów",
-                "terms": "psi park"
+                "name": "Park dla psów"
             },
             "leisure/firepit": {
-                "name": "Miejsce na ognisko",
-                "terms": "ognisko"
+                "name": "Miejsce na ognisko"
             },
             "leisure/garden": {
                 "name": "Ogród",
@@ -2629,12 +2635,10 @@
                 "terms": "boisko do koszykówki "
             },
             "leisure/pitch/rugby_league": {
-                "name": "Boisko rugby league",
-                "terms": "Boisko rugby "
+                "name": "Boisko rugby league"
             },
             "leisure/pitch/rugby_union": {
-                "name": "Boisko rugby union",
-                "terms": "Boisko rugby "
+                "name": "Boisko rugby league"
             },
             "leisure/pitch/skateboard": {
                 "name": "Skate park",
@@ -2664,8 +2668,7 @@
                 "terms": "pochylnia"
             },
             "leisure/sports_centre": {
-                "name": "Ośrodek Sportu / Siłownia",
-                "terms": "siłownia"
+                "name": "Ośrodek Sportu / Siłownia"
             },
             "leisure/stadium": {
                 "name": "Stadion",
@@ -2690,27 +2693,22 @@
                 "name": "Obiekty sztuczne"
             },
             "man_made/adit": {
-                "name": "Sztolnia",
-                "terms": "Tunel kopalniany"
+                "name": "Sztolnia"
             },
             "man_made/breakwater": {
-                "name": "Falochron",
-                "terms": "bodiony"
+                "name": "Falochron"
             },
             "man_made/chimney": {
-                "name": "Komin",
-                "terms": "kominek"
+                "name": "Komin"
             },
             "man_made/cutline": {
                 "name": "Przecinka leśna"
             },
             "man_made/embankment": {
-                "name": "Nasyp",
-                "terms": "nasyp techniczny"
+                "name": "Nasyp"
             },
             "man_made/flagpole": {
-                "name": "Maszt flagowy",
-                "terms": "flaga"
+                "name": "Maszt flagowy"
             },
             "man_made/gasometer": {
                 "name": "Zbiornik gazu"
@@ -2723,16 +2721,14 @@
                 "terms": "latarnia"
             },
             "man_made/mast": {
-                "name": "Maszt radiowy",
-                "terms": "Wieża radiowa"
+                "name": "Maszt radiowy"
             },
             "man_made/observation": {
                 "name": "Wieża obserwacyjna",
                 "terms": "wieża obserwacyjna"
             },
             "man_made/petroleum_well": {
-                "name": "Szyb naftowy",
-                "terms": "kopalnia ropy"
+                "name": "Szyb naftowy"
             },
             "man_made/pier": {
                 "name": "Molo",
@@ -2768,8 +2764,7 @@
                 "terms": "wieża ciśnień"
             },
             "man_made/water_well": {
-                "name": "Studnia",
-                "terms": "studnia"
+                "name": "Studnia"
             },
             "man_made/water_works": {
                 "name": "Zakład uzdatniania wody",
@@ -2780,12 +2775,10 @@
                 "terms": "fabryka, zakład"
             },
             "military/airfield": {
-                "name": "Lotnisko wojskowe",
-                "terms": "baza lotnicza"
+                "name": "Lotnisko wojskowe"
             },
             "military/barracks": {
-                "name": "Koszary",
-                "terms": "budynek kompanii"
+                "name": "Koszary"
             },
             "military/bunker": {
                 "name": "Bunkier",
@@ -2796,8 +2789,7 @@
                 "terms": "Rogatka wojskowa"
             },
             "military/naval_base": {
-                "name": "Port wojenny",
-                "terms": "baza marynarki wojennej"
+                "name": "Port wojenny"
             },
             "military/obstacle_course": {
                 "name": "Kurs Przeszkód",
@@ -2854,8 +2846,7 @@
                 "terms": "szczyt,wierzchołek"
             },
             "natural/saddle": {
-                "name": "Przełęcz",
-                "terms": "przełęcz górska"
+                "name": "Przełęcz"
             },
             "natural/scree": {
                 "name": "Rumowisko",
@@ -2985,8 +2976,7 @@
                 "terms": "terapeuta"
             },
             "office/travel_agent": {
-                "name": "Biuro podróży",
-                "terms": "biuro podróży zagranicznych, biuro podróży krajowych"
+                "name": "Biuro podróży"
             },
             "piste": {
                 "name": "Trasa narciarska",
@@ -3016,12 +3006,10 @@
                 "terms": "izolowane zabudowania"
             },
             "place/locality": {
-                "name": "Okolica",
-                "terms": "Miejsce"
+                "name": "Okolica"
             },
             "place/neighbourhood": {
-                "name": "Sąsiedztwo",
-                "terms": "osiedle"
+                "name": "Sąsiedztwo"
             },
             "place/suburb": {
                 "name": "Dzielnica"
@@ -3066,8 +3054,7 @@
                 "terms": "podstacja energetyczna"
             },
             "power/tower": {
-                "name": "Wieża wysokiego napięcia",
-                "terms": "wieża HV"
+                "name": "Wieża wysokiego napięcia"
             },
             "power/transformer": {
                 "name": "Transformator",
@@ -3077,8 +3064,7 @@
                 "name": "Miejsce oczekiwania"
             },
             "public_transport/stop_position": {
-                "name": "Miejsce zatrzymania",
-                "terms": "linia zatrzymania"
+                "name": "Miejsce zatrzymania"
             },
             "railway": {
                 "name": "Kolej",
@@ -3157,16 +3143,14 @@
                 "terms": "alkohol"
             },
             "shop/anime": {
-                "name": "Sklep z anime",
-                "terms": "sklep anime"
+                "name": "Sklep z anime"
             },
             "shop/antiques": {
                 "name": "Antykwariat",
                 "terms": "sklep z antykami, antyki"
             },
             "shop/baby_goods": {
-                "name": "Sklep z artykułami dla dzieci i niemowląt",
-                "terms": "sklep niemowlęcy"
+                "name": "Sklep z artykułami dla dzieci i niemowląt"
             },
             "shop/bag": {
                 "name": "Sklep z torebkami/walizkami",
@@ -3271,10 +3255,6 @@
             "shop/cosmetics": {
                 "name": "Sklep z kosmetykami",
                 "terms": "kosmetyki,drogeria"
-            },
-            "shop/craft": {
-                "name": "Sklep z rzemiosłem artystycznym",
-                "terms": "rzemiosło artystyczne"
             },
             "shop/curtain": {
                 "name": "Sklep z zasłonami",
@@ -3482,9 +3462,6 @@
             "shop/pyrotechnics": {
                 "name": "Sklep z ogniami sztucznymi",
                 "terms": "fajerwerki"
-            },
-            "shop/radiotechnics": {
-                "name": "Sklep z częściami elektronicznymi"
             },
             "shop/religion": {
                 "name": "Sklep z dewocjonaliami",

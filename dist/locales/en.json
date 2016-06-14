@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Save Changes",
-        "description_placeholder": "Brief description of your contributions (required)",
+        "description_placeholder": "Brief description of your contributions",
         "message_label": "Changeset comment",
         "upload_explanation": "The changes you upload will be visible on all maps that use OpenStreetMap data.",
         "upload_explanation_with_user": "The changes you upload as {user} will be visible on all maps that use OpenStreetMap data.",
@@ -316,7 +316,6 @@
             "yes": "Yes",
             "no": "No"
         },
-        "add": "Add",
         "none": "None",
         "node": "Node",
         "way": "Way",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% brightness",
         "none": "None",
         "best_imagery": "Best known imagery source for this location",
-        "switch": "Switch back to this background",
         "custom": "Custom",
         "custom_button": "Edit custom background",
         "custom_prompt": "Enter a tile URL template. Valid tokens are {z}, {x}, {y} for Z/X/Y scheme and {u} for quadtile scheme.",
@@ -512,7 +510,7 @@
         "title": "Photo Overlay (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Traffic signs from Mapillary (must enable Photo Overlay)",
+        "tooltip": "Traffic signs from Mapillary",
         "title": "Traffic Sign Overlay (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Barrier Features"
-            },
             "category-building": {
                 "name": "Building Features"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Type"
             },
-            "bin": {
-                "label": "Waste Bin"
-            },
             "boundary": {
                 "label": "Type"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Cuisine"
-            },
-            "currency_multi": {
-                "label": "Currency Types"
             },
             "cycleway": {
                 "label": "Bike Lanes",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Fuel"
             },
-            "fuel_multi": {
-                "label": "Fuel Types"
+            "fuel/biodiesel": {
+                "label": "Sells Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Sells Diesel"
+            },
+            "fuel/e10": {
+                "label": "Sells E10"
+            },
+            "fuel/e85": {
+                "label": "Sells E85"
+            },
+            "fuel/lpg": {
+                "label": "Sells Propane"
+            },
+            "fuel/octane_100": {
+                "label": "Sells Racing Gasoline"
+            },
+            "fuel/octane_91": {
+                "label": "Sells Regular Gasoline"
+            },
+            "fuel/octane_95": {
+                "label": "Sells Midgrade Gasoline"
+            },
+            "fuel/octane_98": {
+                "label": "Sells Premium Gasoline"
             },
             "gauge": {
                 "label": "Gauge"
@@ -1210,9 +1223,6 @@
                     "lane": "Roadside Lane"
                 }
             },
-            "payment_multi": {
-                "label": "Payment Types"
-            },
             "phone": {
                 "label": "Phone",
                 "placeholder": "+31 42 123 4567"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Type"
             },
-            "recycling_accepts": {
-                "label": "Accepts"
+            "recycling/cans": {
+                "label": "Accepts Cans"
+            },
+            "recycling/clothes": {
+                "label": "Accepts Clothes"
+            },
+            "recycling/glass": {
+                "label": "Accepts Glass"
+            },
+            "recycling/glass_bottles": {
+                "label": "Accepts Glass Bottles"
+            },
+            "recycling/paper": {
+                "label": "Accepts Paper"
+            },
+            "recycling/plastic": {
+                "label": "Accepts Plastic"
+            },
+            "recycling/type": {
+                "label": "Recycling Type",
+                "options": {
+                    "container": "Container",
+                    "centre": "Recycling Center"
+                }
             },
             "ref": {
                 "label": "Reference"
@@ -1611,7 +1643,7 @@
             },
             "amenity/bbq": {
                 "name": "Barbecue/Grill",
-                "terms": "bbq,grill"
+                "terms": "bbq"
             },
             "amenity/bench": {
                 "name": "Bench",
@@ -2002,7 +2034,7 @@
                 "terms": ""
             },
             "barrier/ditch": {
-                "name": "Trench",
+                "name": "Ditch",
                 "terms": ""
             },
             "barrier/entrance": {
@@ -3967,10 +3999,6 @@
             },
             "type/route/hiking": {
                 "name": "Hiking Route",
-                "terms": ""
-            },
-            "type/route/horse": {
-                "name": "Riding Route",
                 "terms": ""
             },
             "type/route/pipeline": {

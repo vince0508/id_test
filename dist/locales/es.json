@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Guardar cambios",
-        "description_placeholder": "Breve descripción de sus contribuciones (requerido)",
+        "description_placeholder": "Breve descripción de tus contribuciones",
         "message_label": "Comentario del conjunto de cambios",
         "upload_explanation": "Los cambios que sube serán visibles en todos los mapas que usen datos de OpenStreetMap.",
         "upload_explanation_with_user": "Los cambios que sube como {user} serán visibles en todos los mapas que usen datos de OpenStreetMap.",
@@ -316,7 +316,6 @@
             "yes": "Si",
             "no": "No"
         },
-        "add": "Añadir",
         "none": "Ninguno",
         "node": "Nodo",
         "way": "Vía",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% brillo",
         "none": "Ninguno",
         "best_imagery": "La mejor fuente de imágenes para esta ubicación",
-        "switch": "Volver a este fondo",
         "custom": "Personalizado",
         "custom_button": "Editar fondo personalizado",
         "custom_prompt": "Introduzca la URL de una plantilla de teselas. Los símbolos válidos son {z}, {x}, {y} para el esquema Z/X/Y y {u} para el esquema quadtile.",
@@ -512,7 +510,7 @@
         "title": "Superposición de fotos (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Señales de tráfico de Mapillary (debe permitir superposición de fotos)",
+        "tooltip": "Señales de tráfico de Mapillary",
         "title": "Superposición de señal de tráfico (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Elementos de barrera"
-            },
             "category-building": {
                 "name": "Elementos de edificio"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Tipo"
             },
-            "bin": {
-                "label": "Papelera"
-            },
             "boundary": {
                 "label": "Tipo"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Cocina"
-            },
-            "currency_multi": {
-                "label": "Tipos de moneda"
             },
             "cycleway": {
                 "label": "Carriles para bicicletas",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Combustible"
             },
-            "fuel_multi": {
-                "label": "Tipos de combustible"
+            "fuel/biodiesel": {
+                "label": "Vende Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Vende Diesel"
+            },
+            "fuel/e10": {
+                "label": "Vende E10"
+            },
+            "fuel/e85": {
+                "label": "Vende E85"
+            },
+            "fuel/lpg": {
+                "label": "Vende Propano"
+            },
+            "fuel/octane_100": {
+                "label": "Vende Gasolina de Carreras"
+            },
+            "fuel/octane_91": {
+                "label": "Vende Gasolina Común"
+            },
+            "fuel/octane_95": {
+                "label": "Vende Gasolina Súper"
+            },
+            "fuel/octane_98": {
+                "label": "Vende Gasolina Premium"
             },
             "gauge": {
                 "label": "Gálibo"
@@ -1210,9 +1223,6 @@
                     "underground": "Subterráneo"
                 }
             },
-            "payment_multi": {
-                "label": "Formas de pago"
-            },
             "phone": {
                 "label": "Teléfono",
                 "placeholder": "+31 42 123 4567"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Tipo"
             },
-            "recycling_accepts": {
-                "label": "Acepta"
+            "recycling/cans": {
+                "label": "Acepta envases"
+            },
+            "recycling/clothes": {
+                "label": "Acepta ropas"
+            },
+            "recycling/glass": {
+                "label": "Acepta vidrio"
+            },
+            "recycling/glass_bottles": {
+                "label": "Acepta botellas de vidrio"
+            },
+            "recycling/paper": {
+                "label": "Acepta papel"
+            },
+            "recycling/plastic": {
+                "label": "Acepta plástico"
+            },
+            "recycling/type": {
+                "label": "Tipo de reciclaje",
+                "options": {
+                    "centre": "Centro de reciclaje",
+                    "container": "Contenedor"
+                }
             },
             "ref": {
                 "label": "Referencia"
@@ -1599,7 +1631,7 @@
             },
             "amenity/atm": {
                 "name": "Cajero automático",
-                "terms": "cajero automático, retiro, dinero, efectivo, banco"
+                "terms": "cajero automático, dinero, efectivo, banco"
             },
             "amenity/bank": {
                 "name": "Banco",
@@ -1687,7 +1719,7 @@
             },
             "amenity/college": {
                 "name": "Terreno de instituto",
-                "terms": "terreno, área, suelo, instituto, univerisdad"
+                "terms": "instituto, instituto, terreno, área, suelo, facultad"
             },
             "amenity/community_centre": {
                 "name": "Centro Comunitario",
@@ -1751,15 +1783,15 @@
             },
             "amenity/hospital": {
                 "name": "Recinto hospitalario",
-                "terms": "terreno, área, suelo, hospitalario, hospital, clínica, sanatorio, consultorio"
+                "terms": "Recinto hospitalario, hospital, clínica, terreno, área, suelo"
             },
             "amenity/hunting_stand": {
                 "name": "Puesto de caza",
                 "terms": "caza, puesto, caseta"
             },
             "amenity/kindergarten": {
-                "name": "Terreno de preescolar o jardín de infancia",
-                "terms": "terreno, área, suelo, preescolar, preprimaria, jardín de infancia, jardín de niños, kinder, parvulario, párvulos"
+                "name": "Terreno de preescolar/Jardín de infancia",
+                "terms": "preescolar, jardín de infancia, parvulario, parvulos, terreno, área, suelo"
             },
             "amenity/library": {
                 "name": "Biblioteca",
@@ -1826,8 +1858,8 @@
                 "terms": "correo, oficina de correos, casa de correos, estafeta de correos"
             },
             "amenity/prison": {
-                "name": "Terreno de prisión",
-                "terms": "terreno, área, suelo, prisión, cárcel, carceleta, celda, penal, penitenciaria, presidio, reclusión, encierro, correccional, detención"
+                "name": "Terreno de la prisión",
+                "terms": "prisión, presion, cárcel, carcel"
             },
             "amenity/pub": {
                 "name": "Pub",
@@ -1858,8 +1890,8 @@
                 "terms": "desecho, inodoro, taza, letrina, baño, aseo, lavabo, casa rodante, autocaravana, motorhome"
             },
             "amenity/school": {
-                "name": "Terreno escolar",
-                "terms": "terreno, área, suelo, recinto escolar, escolar, escuela, colegio, centro educativo, unidad educativa, primaria, secundaria, secundario, instituto"
+                "name": "Terreno de escuela",
+                "terms": "recinto escolar, escolar, escuela, colegio, instituto, terreno, área, suelo"
             },
             "amenity/shelter": {
                 "name": "Refugio",
@@ -1910,8 +1942,8 @@
                 "terms": "ayuntamiento, alcaldía, municipio, municipalidad, municipal, concejo, consistorio, cabildo, gobierno local, gobierno municipal, alcalde, intendente, concejales, ediles, comuna, casa consistorial"
             },
             "amenity/university": {
-                "name": "Terreno universitario",
-                "terms": "terreno, área, suelo, universidad, campus, colegio mayor, facultad, universitario, claustro"
+                "name": "Terreno de universidad",
+                "terms": "universidad, campus, colegio mayor, facultad, terreno, área, suelo"
             },
             "amenity/vending_machine/cigarettes": {
                 "name": "Máquina expendedora de cigarrillos",
@@ -2003,7 +2035,7 @@
             },
             "barrier/ditch": {
                 "name": "Zanja",
-                "terms": "zanja, trinchera, foso, fosa"
+                "terms": "zanja, foso, cuneta"
             },
             "barrier/entrance": {
                 "name": "Entrada / Apertura de barrera",
@@ -2475,11 +2507,11 @@
             },
             "highway/cycleway": {
                 "name": "Ciclovía",
-                "terms": "camino, senda, sendero, carril bici, bicisenda, ciclovía, ciclorruta, pista, ciclista, ciclismo, bicicleta, bici"
+                "terms": "Camino para bicicletas, senda ciclable, sendero ciclista, carril bici, bicisenda, ciclovía, carril para bicicletas, pista para ciclistas"
             },
             "highway/footway": {
                 "name": "Acera peatonal",
-                "terms": "camino, senda, sendero, acera, vereda, andén, banqueta, peatón, peatonal"
+                "terms": "camino, sendero, acera, vereda, andén, banqueta, peatón, peatonal"
             },
             "highway/living_street": {
                 "name": "Calle residencial",
@@ -2503,7 +2535,7 @@
             },
             "highway/path": {
                 "name": "Sendero",
-                "terms": "vereda, sendero, senda, camino, vía, ramal, trocha, atajo, travesía, huella, rastro"
+                "terms": "vereda, sendero, senda, camino, vía, calzada, ramal, trocha, atajo, travesía, huella, rastro"
             },
             "highway/pedestrian": {
                 "name": "Calle peatonal",
@@ -2511,7 +2543,7 @@
             },
             "highway/primary": {
                 "name": "Carretera primaria",
-                "terms": "carretera, camino, senda, calle, avenida, ruta, vía, primaria, primordial, principal, arteria"
+                "terms": "carretera primaria, carretera principal, vía principal"
             },
             "highway/primary_link": {
                 "name": "Enlace de carretera primaria",
@@ -2523,19 +2555,19 @@
             },
             "highway/residential": {
                 "name": "Calle urbana",
-                "terms": "calle, avenida, ruta, vía, boulevar, bulevar, paseo, residencial, urbana, domiciliaria"
+                "terms": "calle urbana, calle residencial"
             },
             "highway/rest_area": {
                 "name": "Área de descanso",
                 "terms": "Área de descanso, apartadero"
             },
             "highway/road": {
-                "name": "Carretera desconocida",
-                "terms": "carretera, camino, senda, calle, avenida, ruta, vía, desconocida, temporal"
+                "name": "Carretera sin categoría conocida",
+                "terms": "calle, ronda, carril, ruta, arteria, rúa, trayecto, carretera, paseo, camino, vía"
             },
             "highway/secondary": {
                 "name": "Carretera secundaria",
-                "terms": "carretera, camino, senda, calle, avenida, ruta, vía, secundaria"
+                "terms": "Carretera secundaria, vía secundaria"
             },
             "highway/secondary_link": {
                 "name": "Enlace de carretera secundaria",
@@ -2543,7 +2575,7 @@
             },
             "highway/service": {
                 "name": "Vía de servicio",
-                "terms": "camino, senda, calle, vía, servicio, callejón, pasaje, acceso, ingreso"
+                "terms": "vía de servicio, calle de servicio, servicio"
             },
             "highway/service/alley": {
                 "name": "Callejón",
@@ -2582,16 +2614,16 @@
                 "terms": "farola, iluminación, alumbrado, alumbrado público, farol, lámpara, fanal"
             },
             "highway/tertiary": {
-                "name": "Carretera terciaria",
-                "terms": "carretera, camino, senda, calle, avenida, ruta, vía, terciaria, local"
+                "name": "Carretera local",
+                "terms": "Carretera terciaria, Carretera local"
             },
             "highway/tertiary_link": {
                 "name": "Enlace de carretera local",
                 "terms": "Enlace a carretera terciaria, Enlace a carretera local, Enlace de carretera local"
             },
             "highway/track": {
-                "name": "Camino o pista sin mantenimiento",
-                "terms": "camino, senda, sendero, calle, vía, pista, rural, forestal, agrícola, campo, sin mantenimiento, offroad, jeep, doble tracción, tractor, 4x4, atv, cuadrimotor, quadratrack, con huella"
+                "name": "Camino o pista rural",
+                "terms": "camino, vía, pista, rural, pista forestal, camino forestal. camino agrícola"
             },
             "highway/traffic_signals": {
                 "name": "Semáforos",
@@ -2599,7 +2631,7 @@
             },
             "highway/trunk": {
                 "name": "Carretera principal",
-                "terms": "carretera, avenida, ruta, vía, ruta nacional, troncal, principal"
+                "terms": "Carretera principal, carretera nacional, Carretera troncal"
             },
             "highway/trunk_link": {
                 "name": "Enlace de carretera principal",
@@ -2611,7 +2643,7 @@
             },
             "highway/unclassified": {
                 "name": "Camino menor / sin clasificación",
-                "terms": "carretera, camino, sendero, vía, menor, no clasificada, sin clasificación"
+                "terms": "carretera, camino, menor, no clasificado, sin clasificación"
             },
             "historic": {
                 "name": "Lugar histórico",
@@ -2974,8 +3006,8 @@
                 "terms": "Pozo de Agua, agua en pozo"
             },
             "man_made/water_works": {
-                "name": "Planta potabilizadora de agua",
-                "terms": "potabilizadora, ETAP, planta potabilizadora, abastecimiento de agua, agua potable"
+                "name": "Obras hidráulicas",
+                "terms": "obras hidráulicas, obras hidraulicas, obra Hidráulica, obras sanitarias, obras hídricas, infraestructura hidráulica"
             },
             "man_made/works": {
                 "name": "Fábrica",
@@ -3968,10 +4000,6 @@
             "type/route/hiking": {
                 "name": "Ruta de senderismo",
                 "terms": "Ruta de senderismo,  excursionismo, caminata, excursionismo a pie"
-            },
-            "type/route/horse": {
-                "name": "Ruta a caballo",
-                "terms": "caballo, ruta, ecuestre, equitación, cabalgar, cabalgata"
             },
             "type/route/pipeline": {
                 "name": "Ruta de tubería",

@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Gravar Alterações",
-        "description_placeholder": "Pequena descrição das tuas contribuições (necessário)",
+        "description_placeholder": "Breve descrição das suas alterações",
         "message_label": "Descrição das alterações",
         "upload_explanation": "As alterações que enviar ficarão visíveis em todos os mapas que usem dados do OpenStreetMap.",
         "upload_explanation_with_user": "As alterações que enviar como {user} ficarão visíveis em todos os mapas que usem dados do OpenStreetMap.",
@@ -253,9 +253,7 @@
         "deleted": "Eliminado",
         "created": "Criado",
         "about_changeset_comments": "Sobre comentários de changesets",
-        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments",
-        "google_warning": "Mencionou o Google no seu comentário: lembre-se que copiar do Google Mapas é estritamente proibido.",
-        "google_warning_link": "http://www.openstreetmap.org/copyright"
+        "about_changeset_comments_link": "//wiki.openstreetmap.org/wiki/Good_changeset_comments"
     },
     "contributors": {
         "list": "Edições de {users}",
@@ -316,7 +314,6 @@
             "yes": "Sim",
             "no": "Não"
         },
-        "add": "Adicionar",
         "none": "Nenhum",
         "node": "Nó",
         "way": "Linha",
@@ -330,14 +327,11 @@
         "percent_brightness": "{opacity}% transparente",
         "none": "Nenhum",
         "best_imagery": "Melhor fonte de imagem para esse lugar",
-        "switch": "Mudar para este fundo",
         "custom": "Personalizado",
         "custom_button": "Editar fundo personalizando",
         "custom_prompt": "Introduzir um URL válido. Tokens válidos são {z}, {x}, {y} para esquemas Z/X/Y e {u} para esquemas QuadTile.",
-        "fix_misalignment": "Ajudar o alienamento da imagem ",
         "imagery_source_faq": "De onde vem essa imagem?",
         "reset": "reiniciar",
-        "offset": "Arrasta para a área cinzenta abaixo para ajustar o alienamento da imagem, ou insira os valores em metros. ",
         "minimap": {
             "description": "Mini-mapa",
             "tooltip": "Mostra um pequeno mapa com uma área mais abrangente que ajuda a localizar a área que está a editar."
@@ -512,7 +506,7 @@
         "title": "Camada de Fotos (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Sinais de trânsito do Mapillary (\"Photo Overlay\" tem de estar ativado)",
+        "tooltip": "Placas de trânsito do Mapillary",
         "title": "Camada de Placas de Trânsito (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +607,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Tipos de barreira"
-            },
             "category-building": {
                 "name": "Tipos de edifícios"
             },
@@ -635,7 +626,7 @@
                 "name": "Tipos de restrição"
             },
             "category-road": {
-                "name": "Tipos de rodovia"
+                "name": "Tipos de Rodovia"
             },
             "category-route": {
                 "name": "Tipos de rota"
@@ -785,9 +776,6 @@
             "bicycle_parking": {
                 "label": "Tipo"
             },
-            "bin": {
-                "label": "Caixote de lixo"
-            },
             "boundary": {
                 "label": "Tipo"
             },
@@ -858,9 +846,6 @@
             },
             "cuisine": {
                 "label": "Culinária"
-            },
-            "currency_multi": {
-                "label": "Tipos de moeda"
             },
             "cycleway": {
                 "label": "Faixa de bicicleta",
@@ -965,8 +950,32 @@
             "fuel": {
                 "label": "Combustível"
             },
-            "fuel_multi": {
-                "label": "Tipos de combustíveis "
+            "fuel/biodiesel": {
+                "label": "Vende \"Biodiesel\""
+            },
+            "fuel/diesel": {
+                "label": "Vende \"Gasóleo\""
+            },
+            "fuel/e10": {
+                "label": "Vende \"Etanol 10\""
+            },
+            "fuel/e85": {
+                "label": "Vende \"Etanol 85\""
+            },
+            "fuel/lpg": {
+                "label": "Vende \"GPL\""
+            },
+            "fuel/octane_100": {
+                "label": "Vende \"Gasolina 100\""
+            },
+            "fuel/octane_91": {
+                "label": "Vende \"Gasolina Simples\""
+            },
+            "fuel/octane_95": {
+                "label": "Vende \"Gasolina 95\""
+            },
+            "fuel/octane_98": {
+                "label": "Vende \"Gasolina 98\""
             },
             "gauge": {
                 "label": "Bitola"
@@ -1210,9 +1219,6 @@
                     "underground": "Subterrâneo"
                 }
             },
-            "payment_multi": {
-                "label": "Tipos de pagamentos"
-            },
             "phone": {
                 "label": "Telefone / Telemóvel",
                 "placeholder": "+351 211 123456"
@@ -1270,8 +1276,30 @@
             "railway": {
                 "label": "Tipo"
             },
-            "recycling_accepts": {
-                "label": "Aceita"
+            "recycling/cans": {
+                "label": "Aceita latas"
+            },
+            "recycling/clothes": {
+                "label": "Aceita roupa"
+            },
+            "recycling/glass": {
+                "label": "Aceita vidros"
+            },
+            "recycling/glass_bottles": {
+                "label": "Aceita garrafas de vidro"
+            },
+            "recycling/paper": {
+                "label": "Aceita papel"
+            },
+            "recycling/plastic": {
+                "label": "Aceita plástico"
+            },
+            "recycling/type": {
+                "label": "Tipo de Reciclagem",
+                "options": {
+                    "centre": "Centro de reciclagem (eco-centro)",
+                    "container": "Contentor"
+                }
             },
             "ref": {
                 "label": "Referência"
@@ -2002,8 +2030,8 @@
                 "terms": "Bicicleta"
             },
             "barrier/ditch": {
-                "name": "Fosso / Vala / Trincheira (seca)",
-                "terms": "Trench"
+                "name": "Fosso sem água",
+                "terms": "Sem Água, Seca, Vala sem Água, Vala Seca, Trincheira sem Água, Trincheira  Seca"
             },
             "barrier/entrance": {
                 "name": "Entrada",
@@ -3969,10 +3997,6 @@
                 "name": "Rota de caminhada",
                 "terms": "Hiking Route, Rota de Escalagem"
             },
-            "type/route/horse": {
-                "name": "Rota de equitação",
-                "terms": "Riding Route"
-            },
             "type/route/pipeline": {
                 "name": "Rota de gasoduto / oleoduto",
                 "terms": "Pipeline Route"
@@ -4022,7 +4046,7 @@
                 "terms": "Dam, Usina, Hidrelétrica, Hidroelétrica, Hidro-elétrica, Hidro elétrica"
             },
             "waterway/ditch": {
-                "name": "Fosso / Vala / Trincheira",
+                "name": "Fosso / vala / trincheira",
                 "terms": "Vala, Trincheira, Represa"
             },
             "waterway/dock": {

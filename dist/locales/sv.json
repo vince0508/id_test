@@ -241,7 +241,7 @@
     },
     "commit": {
         "title": "Spara ändringar",
-        "description_placeholder": "Kortfattad beskrivning av ditt bidrag (obligatoriskt)",
+        "description_placeholder": "Kort beskrivning av dina ändringar",
         "message_label": "Ändringskommentar",
         "upload_explanation": "De redigeringar du bidrar med kommer att synas på alla kartor som använder OpenStreetMaps data.",
         "upload_explanation_with_user": "De redigeringar du bidrar med som {user} kommer att synas på alla kartor som använder OpenStreetMaps data.",
@@ -316,7 +316,6 @@
             "yes": "Ja",
             "no": "Nej"
         },
-        "add": "Lägg till",
         "none": "Ingen",
         "node": "Nod",
         "way": "Väg",
@@ -330,7 +329,6 @@
         "percent_brightness": "{opacity}% ljusstyrka",
         "none": "Ingen",
         "best_imagery": "Populäraste källan till flygfoton för den här platsen",
-        "switch": "Växla tillbaka till denna bakgrund",
         "custom": "Anpassa",
         "custom_button": "Ändra anpassad bakgrund",
         "custom_prompt": "Ange en URL-mall för plattor. Giltiga symboler är  {z}, {x}, {y} för Z/X/Y-schema och {u} för quadtile-schema.",
@@ -512,7 +510,7 @@
         "title": "Bildlager (Mapillary)"
     },
     "mapillary_signs": {
-        "tooltip": "Trafikskyltar från Mapillary (måste aktivera bildlager)",
+        "tooltip": "Trafikskyltar från Mapillary",
         "title": "Bildlager med trafikskyltar (Mapillary)"
     },
     "mapillary": {
@@ -613,9 +611,6 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Barriärer"
-            },
             "category-building": {
                 "name": "Byggnad"
             },
@@ -785,9 +780,6 @@
             "bicycle_parking": {
                 "label": "Typ"
             },
-            "bin": {
-                "label": "Soptunna"
-            },
             "boundary": {
                 "label": "Typ"
             },
@@ -858,9 +850,6 @@
             },
             "cuisine": {
                 "label": "Typ av mat"
-            },
-            "currency_multi": {
-                "label": "Valutor"
             },
             "cycleway": {
                 "label": "Cykelfiler",
@@ -965,8 +954,32 @@
             "fuel": {
                 "label": "Bränsle"
             },
-            "fuel_multi": {
-                "label": "Bränslen"
+            "fuel/biodiesel": {
+                "label": "Säljer Biodiesel"
+            },
+            "fuel/diesel": {
+                "label": "Säljer Diesel"
+            },
+            "fuel/e10": {
+                "label": "Säljer E10"
+            },
+            "fuel/e85": {
+                "label": "Säljer E85"
+            },
+            "fuel/lpg": {
+                "label": "Säljer Gasol"
+            },
+            "fuel/octane_100": {
+                "label": "Säljer 100-oktanig bensin"
+            },
+            "fuel/octane_91": {
+                "label": "Säljer 91-oktanig bensin"
+            },
+            "fuel/octane_95": {
+                "label": "Säljer 95-oktanig bensin"
+            },
+            "fuel/octane_98": {
+                "label": "Säljer 98-oktanig bensin"
             },
             "gauge": {
                 "label": "Spårvidd"
@@ -1210,9 +1223,6 @@
                     "underground": "Underjordisk"
                 }
             },
-            "payment_multi": {
-                "label": "Betalningssätt"
-            },
             "phone": {
                 "label": "Telefon",
                 "placeholder": "+46 31 123 4567"
@@ -1270,8 +1280,30 @@
             "railway": {
                 "label": "Typ"
             },
-            "recycling_accepts": {
-                "label": "Accepterar"
+            "recycling/cans": {
+                "label": "Accepterar burkar"
+            },
+            "recycling/clothes": {
+                "label": "Accepterar kläder"
+            },
+            "recycling/glass": {
+                "label": "Accepterar glas"
+            },
+            "recycling/glass_bottles": {
+                "label": "Accepterar glasflaskor"
+            },
+            "recycling/paper": {
+                "label": "Accepterar papper"
+            },
+            "recycling/plastic": {
+                "label": "Accepterar plast"
+            },
+            "recycling/type": {
+                "label": "Återvinningstyp",
+                "options": {
+                    "centre": "Återvinningscentral",
+                    "container": "Container"
+                }
             },
             "ref": {
                 "label": "Referens"
@@ -3968,10 +4000,6 @@
             "type/route/hiking": {
                 "name": "Vandringsled",
                 "terms": "Vandringsrutt, vandringsled, stig"
-            },
-            "type/route/horse": {
-                "name": "Hästspår",
-                "terms": "Ridrutt, ridning, rida, häst, hästrutt, hästspår, ridspår"
             },
             "type/route/pipeline": {
                 "name": "Rörledningsrutt",

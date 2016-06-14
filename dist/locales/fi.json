@@ -235,6 +235,7 @@
     },
     "commit": {
         "title": "Tallenna muutokset",
+        "description_placeholder": "Kuvaile lyhyesti karttaan tehtyjä muutoksia. Kirjoita muokkausten kohdemaan paikallisella kielellä (esimerkiksi Suomessa suomeksi tai ruotsiksi) tai englanniksi.",
         "message_label": "Muutossarjan kommentti",
         "upload_explanation": "Palvelimelle tallennettavat muutokset tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
         "upload_explanation_with_user": "Muutokset tallennetaan palvelimelle käyttäjätunnisteella {user} ja tulevat pian näkyviin kaikkiin OpenStreetMap-kartta-aineistoa käyttäviin palveluihin.",
@@ -497,6 +498,7 @@
         "title": "Valokuvat kartalla (Mapillary)"
     },
     "mapillary_signs": {
+        "tooltip": "Liikennemerkit (Mapillary)",
         "title": "Liikennemerkit kartalla (Mapillary)"
     },
     "mapillary": {
@@ -765,9 +767,6 @@
             "bicycle_parking": {
                 "label": "Tyyppi"
             },
-            "bin": {
-                "label": "Jäteastia"
-            },
             "boundary": {
                 "label": "Tyyppi"
             },
@@ -835,9 +834,6 @@
             },
             "cuisine": {
                 "label": "Ruokakulttuuri"
-            },
-            "currency_multi": {
-                "label": "Valuutat"
             },
             "cycleway": {
                 "label": "Pyöräkaistat",
@@ -936,8 +932,20 @@
             "fuel": {
                 "label": "Polttoaine"
             },
-            "fuel_multi": {
-                "label": "Polttonestetyypit"
+            "fuel/biodiesel": {
+                "label": "Biodiesel-myynti"
+            },
+            "fuel/diesel": {
+                "label": "Diesel-myynti"
+            },
+            "fuel/e10": {
+                "label": "E10-myynti"
+            },
+            "fuel/e85": {
+                "label": "E85-myynti"
+            },
+            "fuel/lpg": {
+                "label": "Propaanin myynti"
             },
             "gauge": {
                 "label": "Raideväli"
@@ -1217,6 +1225,31 @@
             },
             "railway": {
                 "label": "Tyyppi"
+            },
+            "recycling/cans": {
+                "label": "Tölkinkeräys"
+            },
+            "recycling/clothes": {
+                "label": "Vaatekeräys"
+            },
+            "recycling/glass": {
+                "label": "Lasinkeräys"
+            },
+            "recycling/glass_bottles": {
+                "label": "Lasipullojenkeräys"
+            },
+            "recycling/paper": {
+                "label": "Paperinkeräys"
+            },
+            "recycling/plastic": {
+                "label": "Muovinkeräys"
+            },
+            "recycling/type": {
+                "label": "Kierrätyksen tyyppi",
+                "options": {
+                    "centre": "Kierrätyskeskus",
+                    "container": "Säiliö"
+                }
             },
             "ref": {
                 "label": "Tie- tai linjanumero"
@@ -1838,6 +1871,9 @@
             },
             "barrier/cycle_barrier": {
                 "name": "Pyöräilyeste"
+            },
+            "barrier/ditch": {
+                "name": "Oja"
             },
             "barrier/entrance": {
                 "name": "Sisäänkäynti"
